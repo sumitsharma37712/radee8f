@@ -1,0 +1,163 @@
+.success-story {
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 2.5rem;
+    padding: 2.5rem;
+}
+
+.success-story .SuccessStoryheader {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    width: 100%;
+    padding: 2.5rem;
+    background: url("../../assets/images/ellipse.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.success-story .SuccessStoryheader h2 {
+    overflow: hidden;
+    font-size: 9rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.success-story .SuccessStoryheader p {
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.success-story .successStoryBody {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2.5rem;
+}
+
+.success-story .successStoryBody .successStoryContent {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border: 1px solid var(--green);
+    background: url("../../assets/images/bg-gradient-img.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    border-radius: 2.5rem;
+    width: 100%;
+}
+
+.sscontentImage {
+    width: 50%;
+    overflow: hidden;
+    height: fit-content;
+}
+
+.sscontentImage div {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.sscontentImage img {
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+}
+
+.sscontent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sscontent a {
+    font-size: 2.2rem;
+    font-weight: 700;
+    display: none;
+}
+
+.sscontent .p2 {
+    display: none;
+}
+
+@media only screen and (max-width:1366px) {
+
+    .success-story .SuccessStoryheader h2 {
+        font-size: 6rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+    .success-story .SuccessStoryheader h2 {
+        font-size: 4.2rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+
+    .success-story .SuccessStoryheader,
+    .success-story .successStoryBody {
+        padding: 0;
+    }
+
+    .sscontentImage div,
+    .sscontent p {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .success-story .SuccessStoryheader h2 {
+        font-size: 3.6rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+}
+
+@media only screen and (max-width:767px) {
+    .success-story {
+        padding: 0;
+    }
+
+    .success-story .SuccessStoryheader p {
+        font-size: 1.6rem;
+    }
+
+    .sscontentImage {
+        width: 100%;
+    }
+
+    .sscontent a,
+    .sscontent .p2 {
+        display: block;
+    }
+
+    .sscontent .pop {
+        display: none;
+    }
+
+    .success-story .successStoryBody .successStoryContent {
+        flex-direction: column;
+    }
+
+}

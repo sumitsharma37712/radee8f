@@ -1,0 +1,96 @@
+.exploreServices {
+    min-height: 100vh;
+    width: 100%;
+    padding: 25px;
+}
+
+.exploreServices h3 {
+    color: var(--green);
+    cursor: pointer;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.exploreHeading {
+    padding: 2.5rem;
+}
+
+.exploreHeadingInner {
+    padding: 1rem 2.5rem ;
+}
+.exploreHeadingInner h4{
+    font-size: 2.1rem;
+}
+
+.exploreHeadingInner ul {
+    padding: 2.5rem 5rem;
+    list-style: circle;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+.side{
+    transition: 0.5s;
+}
+.side>svg {
+    transform: rotate(-90deg);
+}
+
+.low>svg {
+    transform: rotate(0deg);
+}
+.innercontain{
+    display: flex;
+}
+
+
+@media screen and (max-width:1366px) {
+    .exploreServices h3 {
+        color: var(--green);
+        cursor: pointer;
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    
+}
+
+@media screen and (max-width:1024px) {
+    .accodian .vectortext {
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .exploreHeading {
+        padding: 2rem 0;
+    }
+    .exploreServices .container{
+        padding: 0;
+    }
+    .exploreHeadingInner h4{
+        font-size: 1.8rem;
+    }
+    
+}
+
+@media screen and (max-width:567px) {
+    
+.exploreHeadingInner {
+    padding: 1rem;
+}
+.exploreHeadingInner ul {
+    padding: 2rem ;
+    font-size: 1.4rem;
+}
+
+    
+}

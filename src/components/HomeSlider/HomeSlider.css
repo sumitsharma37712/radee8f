@@ -1,0 +1,66 @@
+.mySwiper {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem;
+}
+
+.swiper-slide {
+    transition: 0.5s;
+    /* filter: blur(3px); */
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    /* background: linear-gradient(var(--white), var(--black)); */
+    /* color: black; */
+}
+
+.swiper-pagination-bullet{
+    background-color: var(--white) !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--green) !important;
+}
+.swiper-slide-active {
+    filter:none;
+}
+.swiper-slide:hover{
+    filter: none;
+}
+
+.inner-testimonial-image{
+    background-color: var(--white);
+    overflow: hidden;
+   height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.inner-testimonial-image img{
+    width: 100%;
+    height: fit-content;
+}
+
+.ourhappyclient{
+    /* height:300px; */
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    padding: 25px;
+    background: url("../../assets/images/ellipse.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+@media screen and (max-width:767px) {
+    .ourhappyclient{
+        height:100px !important;
+        /* height: 30vh; */
+    }
+}

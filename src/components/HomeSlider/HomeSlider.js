@@ -51,6 +51,9 @@ const testimonial = [
   }
 ]
 const HomeSlider = () => {
+  const pagination = {
+    clickable: true,
+  };
   return (
     <div>
       <div className='ourhappyclient'>
@@ -82,7 +85,7 @@ const HomeSlider = () => {
             spaceBetween: 50,
           },
         }}
-        pagination={true}
+        pagination={pagination}
         modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper"
       >

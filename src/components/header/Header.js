@@ -18,11 +18,9 @@ const Header = () => {
   }
   const stickyHeader = () => {
     window.addEventListener('scroll', function () {
-      window.scrollY > 150 ? setSticky(true) : setSticky(false);
+      window.scrollY > 2 ? setSticky(true) : setSticky(false);
     });
   };
-
-
   window.onscroll = function() {myFunction()};
 
 function myFunction() {
@@ -102,7 +100,7 @@ function myFunction() {
                 <li onClick={change} className="nav-item">
                   <NavLink to="/success-story">
                     <span>
-                      Success Stories
+                      {/* Success Stories */}
                     </span>
                   </NavLink>
 

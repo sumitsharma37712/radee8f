@@ -3,6 +3,7 @@ const exploreapi = [
     mainhead: 'Entity Setup & Management',
     innerHead: [
       {
+        id: '0.0',
         innerhead: 'Company Setup Advisory Services',
         discription: [
           {
@@ -40,6 +41,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '0.1',
         innerhead: 'Real Estate Solutions',
         discription: [
           {
@@ -57,6 +59,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '0.2',
         innerhead: 'Entity Registration and Amendment Solutions',
         discription: [
           {
@@ -82,6 +85,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '0.3',
         innerhead: 'Statutory Services',
         discription: [
           {
@@ -115,6 +119,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '0.4',
         innerhead: 'Fiduciary Services',
         discription: [
           {
@@ -137,6 +142,7 @@ const exploreapi = [
     mainhead: 'Administration & Facilities Management',
     innerHead: [
       {
+        id: '1.0',
         innerhead: 'Vendor Management',
         discription: [
           {
@@ -150,6 +156,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '1.1',
         innerhead: 'Travel Management',
         discription: [
           {
@@ -163,6 +170,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '1.2',
         innerhead: 'Event Management',
         discription: [
           {
@@ -176,6 +184,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '1.3',
         innerhead: 'Facilities Management ',
         discription: [
           {
@@ -195,6 +204,7 @@ const exploreapi = [
     mainhead: 'Accounting & Taxation',
     innerHead: [
       {
+        id: '2.0',
         innerhead: 'Books of Accounts',
         discription: [
           {
@@ -212,6 +222,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '2.1',
         innerhead: 'Monthly and Yearly P&L (Profit and Loss) and Balance Sheet',
         discription: [
           {
@@ -225,6 +236,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '2.2',
         innerhead: 'Expense Management',
         discription: [
           {
@@ -238,6 +250,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '2.3',
         innerhead: 'Accounts Audits',
         discription: [
           {
@@ -251,6 +264,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '2.4',
         innerhead: 'Taxation',
         discription: [
           {
@@ -274,6 +288,7 @@ const exploreapi = [
     mainhead: 'Shared Human Resources',
     innerHead: [
       {
+        id: '3.0',
         innerhead: 'Recruitment',
         discription: [
           {
@@ -283,6 +298,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '3.1',
         innerhead: 'HR Services',
         discription: [
           {
@@ -340,6 +356,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '3.2',
         innerhead: 'Learning and Development',
         discription: [
           {
@@ -371,6 +388,7 @@ const exploreapi = [
     mainhead: 'Payroll Services',
     innerHead: [
       {
+        id: '4.0',
         innerhead: 'Transactional Payroll',
         discription: [
           {
@@ -388,6 +406,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '4.1',
         innerhead: 'Statutory Compliances',
         discription: [
           {
@@ -397,6 +416,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '4.2',
         innerhead: 'Salary Structuring',
         discription: [
           {
@@ -414,6 +434,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '4.3',
         innerhead: 'Other Related Services',
         discription: [
           {
@@ -427,6 +448,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '4.4',
         innerhead: 'Payroll Portal Automation',
         discription: [
           {
@@ -450,6 +472,7 @@ const exploreapi = [
     mainhead: 'Technical & Software Compliance',
     innerHead: [
       {
+        id: '5.1',
         innerhead: 'Excellence in Software Development',
         discription: [
           {
@@ -479,10 +502,11 @@ const exploreapi = [
         ],
       },
       {
+        id: '5.2',
         innerhead: 'Diverse Skill Sets for Varied Challenges ',
         discription: [
           {
-            descriptionhed3:"In our quest for excellence, our team boasts a wide range of expertise, including :",
+            descriptionhed3: 'In our quest for excellence, our team boasts a wide range of expertise, including :',
             description1: 'Proficiency in programming languages like Java, Python, PHP, C++, and more.',
           },
           {
@@ -500,6 +524,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '5.3',
         innerhead: 'UX Designs and UI Development',
         discription: [
           {
@@ -521,6 +546,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '5.4',
         innerhead: 'A World of QA Expertise',
 
         discription: [
@@ -572,6 +598,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '5.5',
         innerhead: 'Virtual DevOps Team',
         discription: [
           {
@@ -589,6 +616,7 @@ const exploreapi = [
         ],
       },
       {
+        id: '5.6',
         innerhead: 'SOC, ISO, HIPAA, etc. - Documentation, Compliance Tracking, and Readiness, Audit Preparedness',
         discription: [
           {

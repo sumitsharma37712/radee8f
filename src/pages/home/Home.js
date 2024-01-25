@@ -409,9 +409,7 @@ const Home = () => {
       </section>
       <section className="" data-aos="fade-up">
         <div className="containerFull">
-          <div>
             <HomeSlider />
-          </div>
         </div>
       </section>
 

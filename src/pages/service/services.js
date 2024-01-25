@@ -45,7 +45,7 @@ const Service = () => {
   const textboxRefA = useRef(null);
   const letterpartRefA = useRef(null);
   const changeWidthA = () => {
-    const scroll = window.scrollY / 1100;
+    const scroll = window.scrollY / 900;
     console.log(scroll)
     setScrollA(scroll);
   };
@@ -66,7 +66,7 @@ const Service = () => {
   const textboxRefD = useRef(null);
   const letterpartRefD = useRef(null);
   const changeWidthD = () => {
-    const scroll = window.scrollY / 2000;
+    const scroll = window.scrollY / 1600;
     console.log(scroll)
     setScrollD(scroll);
   };
@@ -87,7 +87,7 @@ const Service = () => {
   const textboxRefE = useRef(null);
   const letterpartRefE = useRef(null);
   const changeWidthE = () => {
-    const scroll = window.scrollY / 2900;
+    const scroll = window.scrollY / 2400;
     console.log(scroll)
     setScrollE(scroll);
   };
@@ -108,7 +108,7 @@ const Service = () => {
   const textboxRefE1 = useRef(null);
   const letterpartRefE1 = useRef(null);
   const changeWidthE1 = () => {
-    const scroll = window.scrollY / 4000;
+    const scroll = window.scrollY / 3100;
     console.log(scroll)
     setScrollE1(scroll);
   };
@@ -127,7 +127,7 @@ const Service = () => {
   const textboxRef8 = useRef(null);
   const letterpartRef8 = useRef(null);
   const changeWidth8 = () => {
-    const scroll = window.scrollY / 4800;
+    const scroll = window.scrollY / 3900;
     console.log(scroll)
     setScroll8(scroll);
   };

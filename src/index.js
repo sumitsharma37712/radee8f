@@ -9,7 +9,6 @@ import RouteError from './components/route-error/RouteError.js';
 import App from './App.js';
 import Loader from './components/Loader/Loader.js';
 import UnderMaintainance from './pages/UnderMaintainance/UnderMaintainance.js';
-
 // Dynamic Loading | Code Spliting
 const Home = lazy(() => import('./pages/home/Home.js'));
 const About = lazy(() => import('./pages/about/About.js'));
@@ -17,6 +16,7 @@ const Services = lazy(() => import('./pages/services/Services.js'));
 const SuccessStory = lazy(() => import('./pages/success-story/SuccessStory.js'));
 const Nopage=lazy(()=>import('./pages/nopage/Nopage.js'));
 const Explore=lazy(()=>import('./pages/explore/explore.js'));
+const Services1=lazy(()=>import('./pages/service/services.js'));
 
 const root = ReactDom.createRoot(document.getElementById('root'));
 
@@ -79,6 +79,15 @@ const appRoutes = createBrowserRouter([
         element: (
           <Suspense fallback={<Loader/>}>
             <Explore />
+          </Suspense>
+        ),
+        errorElement: <RouteError />,
+      },
+      {
+        path: '/services1',
+        element: (
+          <Suspense fallback={<Loader/>}>
+            <Services1 />
           </Suspense>
         ),
         errorElement: <RouteError />,

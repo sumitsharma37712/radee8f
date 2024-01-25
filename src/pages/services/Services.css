@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 25px;
+    /* padding: 25px; */
     gap: 5rem;
     background: url("../../assets/images/bg-gradient-blue.png");
     border-radius: 25px;

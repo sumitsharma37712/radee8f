@@ -68,6 +68,9 @@ const SuccessStory = () => {
   function toggle() {
     setToggle(!togle);
   }
+  const pagination = {
+    clickable: true,
+  };
   return (
     <div className="success-story">
       <div className="SuccessStoryheader">
@@ -130,7 +133,7 @@ const SuccessStory = () => {
               spaceBetween: 50,
             },
           }}
-          pagination={true}
+          pagination={pagination}
           modules={[EffectCoverflow, Pagination, Autoplay]}
           className="mySwiper"
         >

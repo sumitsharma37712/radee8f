@@ -1,35 +1,21 @@
 
 /* R */
 
-.row.sectionR {
+.row.sectionR,.row.sectionA,.row.sectionD,.row.sectionE,.row.section8 {
     height: 100vh;
     background: url('../../assets/images/circleblock.png');
     background-size: cover;    
     background-repeat: no-repeat;
+    overflow: hidden;
 
 }
-
-.row.sectionR .letterPart {
-    position: absolute;
-    left: 35%;
-    top: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-.row.sectionR .letterPart img{
-    height: 600px;
-    
-}
-.row.sectionR .textbox {
+.row.sectionR .textbox,.row.sectionA .textbox,.row.sectionD .textbox,.row.sectionE .textbox,.row.section8 .textbox {
     border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
     background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));
-
     /* Main Blur Effect */
     backdrop-filter: blur(21px);
     position: relative;
-    top: 35%;
+    top: 40%;
     left: 30%;
     max-width: 700px;
     width: 100%;
@@ -40,8 +26,19 @@
     border-radius: 2rem;
     /* border: 2px solid red; */
 }
-
-.row.sectionR .textbox h1 {
+.row.sectionR .letterPart {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.row.sectionR .letterPart img,.row.sectionA .letterPart img,.row.sectionD .letterPart img,.row.sectionE .letterPart img,.row.section8 .letterPart img{
+    height: 500px;    
+}
+.row.sectionR .textbox h1,.row.sectionA .textbox h1,.row.sectionD .textbox h1,.row.sectionE .textbox h1,.row.section8 .textbox h1 {
     font-size: 5rem;
     font-style: normal;
     font-weight: 900;
@@ -53,14 +50,6 @@
 .row{
     margin: 0;
 }
-.row.sectionA {
-    height: 100vh;
-    background: url('../../assets/images/circleblock.png');
-    background-size: cover;    
-    background-repeat: no-repeat;
-    margin: 0;
-
-}
 
 .row.sectionA .letterPart {
     position: absolute;
@@ -71,46 +60,9 @@
     justify-content: center;
     margin: auto;
 }
-.row.sectionA .letterPart img{
-    height: 600px;    
-}
-
-.row.sectionA .textbox {
-    border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
-    background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));
-
-    /* Main Blur Effect */
-    backdrop-filter: blur(21px);
-    position: relative;
-    top: 40%;
-    left: 30%;
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-    height: 300px;
-    padding: 1rem;
-    border: 1px solid;
-    border-radius: 2rem;
-    /* border: 2px solid red; */
-}
-
-.row.sectionA .textbox h1 {
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 6.5rem;
-    text-transform: uppercase;
-}
+ 
 /* D */
 
-.row.sectionD {
-    height: 100vh;
-    background: url('../../assets/images/circleblock.png');
-    background-size: cover;    
-    background-repeat: no-repeat;
-    margin: 0;
-
-}
 
 .row.sectionD .letterPart {
     position: absolute;
@@ -121,47 +73,8 @@
     justify-content: center;
     margin: auto;
 }
-.row.sectionD .letterPart img{
-    height: 600px;    
-}
-
-.row.sectionD .textbox {
-    border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
-    background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));
-
-    /* Main Blur Effect */
-    backdrop-filter: blur(21px);
-    position: relative;
-    top: 40%;
-    left: 30%;
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-    height: 300px;
-    padding: 1rem;
-    border: 1px solid;
-    border-radius: 2rem;
-    /* border: 2px solid red; */
-}
-
-.row.sectionD .textbox h1 {
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 6.5rem;
-    text-transform: uppercase;
-}
-
 /* E */
 
-.row.sectionE {
-    height: 100vh;
-    background: url('../../assets/images/circleblock.png');
-    background-size: cover;    
-    background-repeat: no-repeat;
-    margin: 0;
-
-}
 
 .row.sectionE .letterPart {
     position: absolute;
@@ -172,86 +85,14 @@
     justify-content: center;
     margin: auto;
 }
-.row.sectionE .letterPart img{
-    height: 600px;    
-}
-
-.row.sectionE .textbox {
-    border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
-    background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));
-
-    /* Main Blur Effect */
-    backdrop-filter: blur(21px);
-    position: relative;
-    top: 40%;
-    left: 30%;
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-    height: 300px;
-    padding: 1rem;
-    border: 1px solid;
-    border-radius: 2rem;
-    /* border: 2px solid red; */
-}
-
-.row.sectionE .textbox h1 {
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 6.5rem;
-    text-transform: uppercase;
-}
-
 /* 8 */
-
-
-
-.row.section8 {
-    height: 100vh;
-    background: url('../../assets/images/circleblock.png');
-    background-size: cover;    
-    background-repeat: no-repeat;
-    margin: 0;
-
-}
 
 .row.section8 .letterPart {
     position: absolute;
-    left: 25%;
+    left: 23%;
     top: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-}
-.row.section8 .letterPart img{
-    height: 600px;    
-}
-
-.row.section8 .textbox {
-    border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
-    background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));
-
-    /* Main Blur Effect */
-    backdrop-filter: blur(21px);
-    position: relative;
-    top: 45%;
-    left: 30%;
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-    height: 300px;
-    padding: 1rem;
-    border: 1px solid;
-    border-radius: 2rem;
-    /* border: 2px solid red; */
-}
-
-.row.section8 .textbox h1 {
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 6.5rem;
-    text-transform: uppercase;
 }

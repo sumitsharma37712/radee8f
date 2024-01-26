@@ -116,7 +116,7 @@ Forescout seamlessly blended into the local business ecosystem, meeting the regu
 
                 </p>
                 <p className="pop"></p>
-                {togle && <p className="p2">
+                {/* {togle && <p className="p2">
                   
                   </p>}
                 <Link to="" onClick={toggle}>
@@ -125,7 +125,7 @@ Forescout seamlessly blended into the local business ecosystem, meeting the regu
                     src={togle ? CaretTop : CaretRight}
                     alt="Read more"
                   ></img>
-                </Link>
+                </Link> */}
               </div>
             </div>
             

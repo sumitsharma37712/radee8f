@@ -85,18 +85,40 @@ const SuccessStory = () => {
       </div>
 
       <div className="successStoryBody">
-        {successContent.map((i) => {
-          return (
+        
+        
             <div className=" successStoryContent">
-              <div className="sscontentImage" key={i.id}>
+              <div className="sscontentImage" >
                 <div>
-                  <img src={i.image} alt="not found" />
+                  <img src={forescout} alt="not found" />
                 </div>
               </div>
               <div className="sscontent">
-                <p className="p1">{i.description}</p>
-                <p className="pop">{i.discription1}</p>
-                {togle && <p className="p2">{i.discription1}</p>}
+                <p className="p1">
+                <span style={{fontWeight:"600"}}>Client Overview</span>: Forescout, a leading player in the cybersecurity sector, envisioned expanding its operations to Pune, India to tap into the country's burgeoning talent pool and enhance its global operations. Seeking a strategic partner, Forescout collaborated with Radee8 Advisory, well established advisory firm known for its expertise in international business setups. 
+<br/>The objective was to set up a virtual work-from-home team for Forescout's India operations and create a physical office space in a co-working environment.
+<br/>Forescout needed local expertise to support them in navigating Indian regulatory requirements, IT infrastructure and equipment procurement, Compliance with compliance with Indian taxation laws, GST filing,  Identifying and establishing a presence in a suitable co-working space etc.
+
+<br/><span style={{fontWeight:"600"}}>Entity Establishment </span>: Conducted a thorough market analysis to identify the most suitable location for Forescout’s operations in India. This encompassed the entire process from name registration to navigating the legal landscape.
+<br/><span style={{fontWeight:"600"}}>Fiduciary Services </span>: To ensure a strong local presence, Radee8 carefully selected and appointed local directors in alignment with Indian regulations, providing Forescout with the necessary expertise on the ground. 
+<br/><span style={{fontWeight:"600"}}>Accounting and Compliance Services </span>: Radee8 took charge of Forescout's financial framework, implementing robust accounting systems while keeping a vigilant eye on compliance with Indian accounting standards.
+<br/><span style={{fontWeight:"600"}}>Virtual Team Setup </span>	: Radee8 Advisory spearheaded the establishment of virtual work from home team. This involved the implementation of secure communication tools, ensuring that remote employees could collaborate seamlessly.
+Security measures were implemented to safeguard Forescout's sensitive information, and the virtual team was set up to mirror the efficiency and productivity of an in-office environment.
+<br/><span style={{fontWeight:"600"}}>Physical office setup</span>: Radee8 facilitated the establishment of a dynamic and flexible workspace in a premium co-working space (in prime business district of Pune), accommodating Forescout’s initial team. This approach allowed for scalability as the team expanded. 
+For physical set up in a co-working space, Radee8 Advisory identified the selection of suitable location, negotiated lease agreements, and managed the interior set up, IT Infrastructure to meet Forescout’s specifications.
+A collaborative work environment was created, promoting employee well-being and fostering a sense of community among the team.
+<br/><span style={{fontWeight:"600"}}>IT Infrastructure Services </span>: Radee8 managed the entire spectrum of IT infrastructure services. This included the procurement of IT equipment and the establishment of a robust delivery mechanism across India, ensuring that Forescout's team had the necessary tools for seamless operations, promoting efficiency and security.
+<br/><span style={{fontWeight:"600"}}>Leadership and SOC Establishment </span>:  Radee8 facilitated the smooth integration of Forescout's leadership into the Indian business landscape by finding out the right talent for Forescout to manage India operations. This included cultural orientation and strategic guidance to ensure effective leadership within the newly established SOC.
+<br/><span style={{fontWeight:"600"}}>GST Filing and Tax Compliance </span> -Managing Goods and Services Tax (GST) filings became a hassle-free task under Radee8's guidance, as the advisory firm handled the complexities of India's taxation framework.
+<br/>
+Forescout seamlessly blended into the local business ecosystem, meeting the regulatory standards and boasting a formidable team. The successful partnership between Forescout and Radee8 became a benchmark for international companies venturing into India’s dynamic market. 
+
+
+                </p>
+                <p className="pop"></p>
+                {togle && <p className="p2">
+                  
+                  </p>}
                 <Link to="" onClick={toggle}>
                   Read {togle ? "less" : "more"}&nbsp;&nbsp;
                   <img
@@ -106,8 +128,7 @@ const SuccessStory = () => {
                 </Link>
               </div>
             </div>
-          );
-        })}
+            
       </div>
       <div>
         <Swiper

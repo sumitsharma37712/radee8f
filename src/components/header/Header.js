@@ -100,7 +100,7 @@ function myFunction() {
                 <li onClick={change} className="nav-item">
                   <NavLink to="/success-story">
                     <span>
-                      {/* Success Stories */}
+                      Success Stories
                     </span>
                   </NavLink>
 

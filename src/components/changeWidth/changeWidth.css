@@ -1,0 +1,52 @@
+.changeWidth {
+    min-height: 120vh;
+    position: relative !important;
+}
+
+.expand {
+    all: unset;
+    position: sticky !important;
+    max-width: 100%;
+    min-width: 58%;
+    will-change: width;
+    /* margin: 50rem 0 0 0; */
+    z-index: 1;
+}
+
+.expand>img {
+    position: sticky;
+    top: 0;
+}
+
+.expandtext {
+    position: absolute;
+    right: 0;
+    bottom: -30rem;
+    z-index: 0;
+    width: 45rem;
+}
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .expand {
+        width: 100% !important;
+    }
+
+    .containerFull {
+        padding: 0 2.5rem;
+    }
+
+    .expandtext {
+        position: static;
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width:567px) {
+    .changeWidth {
+        min-height: 0;
+    }
+}

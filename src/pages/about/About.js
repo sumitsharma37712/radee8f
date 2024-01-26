@@ -24,6 +24,7 @@ import ElasticImage2 from "../../assets/images/elastic2.png";
 import CaretRight from "../../assets/images/next.png";
 import CaretTop from "../../assets/images/topup.png";
 import FutureImage from "../../assets/images/future.png";
+import ChangeWidth from "../../components/changeWidth/ChangeWidth";
 // import { refresh } from "aos";
 
 const About = () => {
@@ -300,7 +301,7 @@ const About = () => {
           </div>
         </div>
       </section>
-
+{/* 
       <section className="comprehensive-mastery" id="comprehensive-mastery">
         <div
           className="row flex-wrap align-items-center"
@@ -330,7 +331,8 @@ const About = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+      <ChangeWidth/>
       {/* <ScrollWidthChange/> */}
 
       <section className="future" id="future">

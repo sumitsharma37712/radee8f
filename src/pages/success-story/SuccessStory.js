@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SuccessStory.css";
 import "../../components/HomeSlider/HomeSlider.css";
-import symantic from "../../assets/images/symantec.jpg.webp";
+// import symantic from "../../assets/images/symantec.jpg.webp";
 import endu from "../../assets/images/endu.jpg.webp";
 import cysiv from "../../assets/images/cysiv.jpg.webp";
 import krista from "../../assets/images/Krista-logo-transparent-312-128-2_b63870c5-8e05-4078-b7db-986a926de2ab.png";

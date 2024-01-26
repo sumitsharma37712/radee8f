@@ -3,7 +3,7 @@ import "./explore.css";
 import { MdArrowDropDown } from "react-icons/md";
 import exploreapi from "./exploreapi";
 const ExploreServices = () => {
-  const [change, SetChange] = useState(null);
+  const [change, setChange] = useState(null);
   const [innerChange, setInnerChange] = useState(false);
 
   const openInnerContainer = (l) => {

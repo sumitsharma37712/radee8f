@@ -1,0 +1,30 @@
+.scrolling {
+    /* min-height: 100vh; */
+    margin-bottom: 100vh;
+}
+
+.scrollContainer {
+    position: relative;
+    height: 200vh;
+    background-color: black;
+}
+
+.stickymask {
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    mask-image: url('../../assets/images/R.png');
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: 80%;
+}
+
+.stickymask img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -43,7 +43,7 @@ const ChangeWidth = () => {
 
   return (
     <div className="changeWidth" ref={main} id="changeWidth">
-      <div className="containerFull">
+      <div className="containerwidth">
         <div className="row flex flex-wrap">
           <div className="expand" ref={ref} id="expand">
             <img src={ElasticImage2} alt="Elastic" width="100%" />

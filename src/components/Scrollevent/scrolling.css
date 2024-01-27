@@ -28,7 +28,9 @@
     width: 100%;
     object-fit: cover;
 }
-
+/* .maskR{
+    width: 100%;
+} */
 .maskR .textbox{
     border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
     background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));

@@ -41,7 +41,7 @@ const Services = () => {
                 <p>
                   Our experts are here to assist you Manage your organization's
                   setup and post setup services. choose from the wide range of
-                  setup management options radee8 has to offer.
+                  setup management options Radee8 has to offer.
                 </p>
               </div>
               <div>

@@ -26,10 +26,10 @@ const exploreapi = [
             descriptionhed: 'DSC and DIN Services for Directors : ',
             description1: ' Secure Digital Signature Certificates (DSC) and Director Identification Numbers (DIN) for your leadership team, streamlining administrative processes. ',
           },
-          {
-            descriptionhed: 'MOA (Memorandum of Association) and AOA (Articles of Association) :  ',
-            description1: ' Our experts assist in drafting and finalizing these essential documents that define your company’s scope and operations. ',
-          },
+          // {
+          //   descriptionhed: 'MOA (Memorandum of Association) and AOA (Articles of Association) :  ',
+          //   description1: ' Our experts assist in drafting and finalizing these essential documents that define your company’s scope and operations. ',
+          // },
           {
             descriptionhed: 'PAN (Permanent Account Number) and TAN (Tax Deduction and Collection Account Number) :  ',
             description1: ' Ensure compliance with tax regulations by obtaining PAN and TAN for your entity. ',
@@ -50,7 +50,7 @@ const exploreapi = [
           },
           {
             descriptionhed: ' Office Buildout : ',
-            description1: ' RADEE8 takes care of the entire office buildout process, from planning to supervision, ensuring your workspace is customized to your requirements and budget. ',
+            description1: ' R8 takes care of the entire office buildout process, from planning to supervision, ensuring your workspace is customized to your requirements and budget. ',
           },
           {
             descriptionhed: 'Virtual Office Solutions : ',

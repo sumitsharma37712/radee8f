@@ -264,7 +264,7 @@ const About = () => {
                   <b>Market Navigation</b>
                   <p>Precision in Motion</p>
                   <p>
-                    Explore untapped markets with RADEE8's precision-guided
+                    Explore untapped markets with Radee8's precision-guided
                     approach. Each step is carefully crafted, contributing to
                     360 degree success.
                   </p>

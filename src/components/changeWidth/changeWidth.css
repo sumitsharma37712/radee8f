@@ -1,15 +1,22 @@
 .changeWidth {
-    min-height: 120vh;
+    min-height: 10vh;
     position: relative !important;
 }
+.containerwidth{
+    position: relative;
+    max-width: 144rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
 
+}
 .expand {
     all: unset;
     position: sticky !important;
     max-width: 100%;
     min-width: 58%;
     will-change: width;
-    margin: 20rem 0 0 0;
+    margin: 25rem 0 5rem 0;
     z-index: 1;
 }
 

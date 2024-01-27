@@ -7,9 +7,10 @@
     position: relative;
     height: 200vh;
     background-color: black;
+    /* background: url('../../assets/images/circleblock.png') no-repeat center; */
 }
 
-.stickymask {
+.stickymask  {
     display: flex;
     overflow: hidden;
     position: sticky;
@@ -17,7 +18,6 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    mask-image: url('../../assets/images/R.png');
     mask-position: center center;
     mask-repeat: no-repeat;
     mask-size: 80%;
@@ -27,4 +27,19 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.maskR .textbox{
+    border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
+    background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));
+    /* Main Blur Effect */
+    backdrop-filter: blur(21px);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 2rem;
+
 }

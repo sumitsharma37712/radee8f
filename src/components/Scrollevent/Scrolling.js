@@ -1,9 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./scrolling.css";
-
-import img from "../../assets/images/cunstructq.jpg";
-
-const Scrolling = () => {
+const Scrolling = ({heading,paragraph,image,pos}) => {
   const container = useRef(null);
   const mask = useRef(null);
   useEffect(() => {
@@ -28,13 +25,20 @@ const Scrolling = () => {
   };
 
   return (
+    <>
     <main className="scrolling">
       <div ref={container} className="scrollContainer">
-        <div ref={mask} className="stickymask">
-          <img src={img} alt="no image" />
+        <div ref={mask} className="stickymask" style={{maskImage:`url(${image})`,maskPosition:`${pos}`}}>
+          <div className="maskR" >
+            <div className="textbox">
+              <h2>{heading}</h2>
+              <p>{paragraph}</p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    </>
   );
 };
 

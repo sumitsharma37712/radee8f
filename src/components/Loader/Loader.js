@@ -1,27 +1,42 @@
-import React from 'react'
-// import { Audio } from 'react-loader-spinner';
-import './Loader.css'
+import React from "react";
+import "./Loader.css";
 
 const Loader = () => {
-    return (
-        // <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", minHeight:'100vh' }}>
-        //     <Audio
-        //         height="80"
-        //         width="80"
-        //         radius="9"
-        //         color="var(--green)"
-        //         ariaLabel="loading"
-        //         wrapperStyle
-        //         wrapperClass
-        //     />
-
-        // </div> 
-        <>
-        <div className='loader'>
-        <h2>Where Ideas Radiate and Businesses Grow</h2>
+  return (
+    <>
+      <div class="mainloader" id="mainloader">
+        <div class="mainloadercontain">
+          <div class="h2">
+            <span>C</span>
+            <span>r</span>
+            <span>e</span>
+            <span>a</span>
+            <span>t</span>
+            <span>e</span>
+            <span>&nbsp;</span>
+            <span>I</span>
+            <span>n</span>
+            <span>n</span>
+            <span>o</span>
+            <span>v</span>
+            <span>a</span>
+            <span>t</span>
+            <span>e</span>
+            <span>&nbsp;</span>
+            <span style={{color:"var(--green)"}}>R</span>
+            <span style={{color:"var(--green)"}}>a</span>
+            <span style={{color:"var(--green)"}}>d</span>
+            <span style={{color:"var(--green)"}}>i</span>
+            <span style={{color:"var(--green)"}}>a</span>
+            <span style={{color:"var(--green)"}}>t</span>
+            <span style={{color:"var(--green)"}}>e</span>
+          </div>
         </div>
-        </>
-    )
-}
+      </div>
+    </>
+  );
+};
 
-export default Loader
+export default Loader;
+
+// Radiate Create, Innovate,

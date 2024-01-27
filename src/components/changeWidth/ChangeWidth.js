@@ -46,10 +46,13 @@ const ChangeWidth = () => {
       <div className="containerFull">
         <div className="row flex flex-wrap">
           <div className="expand" ref={ref} id="expand">
-            {/* <h2>suraj</h2> */}
             <img src={ElasticImage2} alt="Elastic" width="100%" />
           </div>
-          <div className="column-contents expandtext">
+          <div
+            className="column-contents expandtext"
+            data-aos="fade-in"
+            data-aos-duration="2100"
+          >
             <div>
               <h3>Step into the future, experience the power of Teamwork.</h3>
               <p>

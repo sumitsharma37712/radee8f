@@ -1,5 +1,5 @@
 .changeWidth {
-    min-height: 130vh;
+    min-height: 120vh;
     position: relative !important;
 }
 
@@ -9,7 +9,7 @@
     max-width: 100%;
     min-width: 58%;
     will-change: width;
-    /* margin: 50rem 0 0 0; */
+    margin: 20rem 0 0 0;
     z-index: 1;
 }
 
@@ -21,9 +21,9 @@
 .expandtext {
     position: absolute;
     right: 0;
-    bottom: -30rem;
+    bottom: 0;
     z-index: 0;
-    width: 45rem;
+    width: 50rem;
 }
 
 
@@ -33,6 +33,7 @@
 @media screen and (max-width:767px) {
     .expand {
         width: 100% !important;
+        margin:2rem 0 0 0;
     }
 
     .containerFull {

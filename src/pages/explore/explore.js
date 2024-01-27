@@ -10,7 +10,7 @@ const ExploreServices = () => {
     if (innerChange === l.id) {
       return setInnerChange(innerChange);
     } else if (innerChange === l) {
-      return setInnerChange(null);
+      return setInnerChange(true);
     }
     setInnerChange(l);
   };

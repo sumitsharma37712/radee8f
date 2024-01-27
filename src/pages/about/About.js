@@ -301,40 +301,7 @@ const About = () => {
           </div>
         </div>
       </section>
-{/* 
-      <section className="comprehensive-mastery" id="comprehensive-mastery">
-        <div
-          className="row flex-wrap align-items-center"
-          style={{ margin: "0px" }}
-        >
-          <div className="column column-60">
-            <img src={ElasticImage2} alt="Elastic" width="100%"></img>
-          </div>
-          <div className="column column-40 column-contents">
-            <h3 data-aos="fade-in" data-aos-duration="1000">
-              Step into the future, experience the power of Teamwork.
-            </h3>
-            <p data-aos="fade-in" data-aos-duration="1500">
-              Radee8 is not just a service provider, we are artisans of
-              management.
-            </p>
-            {approch && (
-              <p>
-                Handcrafted solutions that fit right into your product resulting
-                in a well finished rollouts, Radee8 believes in attention to
-                details.
-              </p>
-            )}
-            <Link to="" onClick={approchbtn}>
-              Read {approch ? "less" : "more"} &nbsp;&nbsp;
-              <img src={approch ? CaretTop : CaretRight} alt="Read more"></img>
-            </Link>
-          </div>
-        </div>
-      </section> */}
       <ChangeWidth/>
-      {/* <ScrollWidthChange/> */}
-
       <section className="future" id="future">
         <div className="container">
           <div className="row flex-wrap">

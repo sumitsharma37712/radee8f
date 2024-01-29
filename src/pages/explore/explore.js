@@ -30,7 +30,7 @@ const ExploreServices = () => {
             return (
               <>
               <div
-                className="column column-80 exploreHeading"
+                className="column column-70 exploreHeading"
                 id={`exploreHeading${item}` } key={item}
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -112,10 +112,16 @@ const ExploreServices = () => {
                   );
                 })}
               </div>
-              <div className="column column-20">
-                <div className="fixed">
-                  
-                <p>Links</p>
+              <div className="column column-30">
+                <div className="all_link">
+                  <h4>Links</h4>
+                  <hr/>
+                  <p>Entity Setup & Management</p>   
+                  <p>Entity</p>   
+                  <p>Entity</p>   
+                  <p>Entity</p>   
+                  <p>Entity</p>   
+                
                 </div>
                 
               </div>

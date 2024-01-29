@@ -1,14 +1,18 @@
-.column-80{
-    width:80%
+.column-70{
+    width:70%
 }
-.column-20{
-width: 20%;
-position: relative;
+.column-30{
+width: 30%;
 }
-.fixed{
-    position: fixed;
+.all_link{
+    padding: 3rem;
+    position: sticky;
+    top:15%;
 }
+.all_link h4{
+    font-weight: 600;
 
+}
 .exploreServices {
     min-height: 100vh;
     width: 100%;

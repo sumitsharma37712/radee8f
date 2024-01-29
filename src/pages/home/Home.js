@@ -34,10 +34,10 @@ const Home = () => {
             <div className="column column-60 hero-text">
               <div className="inner ">
                 <h1 data-aos="fade-up" data-aos-duration="1000">
-                  Elevate Your Global Business with Radee8
+                  Elevate Your Global Business with RADEE8
                 </h1>
                 <p data-aos="fade-up" data-aos-duration="1500">
-                  Welcome to Radee8, your catalyst for global business success.
+                  Welcome to RADEE8, your catalyst for global business success.
                   Our team of seasoned advisors specializes in assisting
                   corporations and startups worldwide to establish their
                   ventures in India and manage the support ecosystem. Talent
@@ -89,7 +89,7 @@ const Home = () => {
                   data-aos="fade-up"
                   data-aos-duration="2500"
                 >
-                  <strong>We Are Radee8</strong>
+                  <strong>We Are RADEE8</strong>
                 </h3>
               </center>
             </div>
@@ -108,10 +108,10 @@ const Home = () => {
                       <b>About Us</b>
                     </p>
                     <h2 data-aos="fade-up" data-aos-duration="1000">
-                      Empowering Global Ventures: The Radee8 Story
+                      Empowering Global Ventures: The RADEE8 Story
                     </h2>
                     <p data-aos="fade-up" data-aos-duration="1500">
-                      At Radee8, we are more than consultants; we are architects
+                      At RADEE8, we are more than consultants; we are architects
                       of success, dedicated to empowering global ventures. Our
                       journey is defined by a passion for strategic excellence
                       and a commitment to turning business aspirations thriving
@@ -189,7 +189,7 @@ const Home = () => {
               Comprehensive Solutions Tailored for Your Success
             </h4>
             <p data-aos="fade-up" data-aos-duration="1500">
-              At Radee8, we understand that success in global ventures requires
+              At RADEE8, we understand that success in global ventures requires
               more than just advice; it demands a suite of comprehensive
               services designed to navigate the intricacies of international
               business.
@@ -207,7 +207,7 @@ const Home = () => {
                   title="Entity Setup & Management"
                   slogan="Your Success, Our Priority"
                   bold="Client-Centric Solutions"
-                  description="At Radee8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs."
+                  description="At RADEE8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs."
                   link="services#Entity"
                   linktext="Learn More"
                   
@@ -240,7 +240,7 @@ const Home = () => {
                   title="Payroll Services"
                   slogan="Borders Beyond Boundaries"
                   bold="Global Perspective:"
-                  description="Our global perspective extends beyond borders. Radee8 understands the intricacies of international markets and leverages."
+                  description="Our global perspective extends beyond borders. RADEE8 understands the intricacies of international markets and leverages."
                   link="services#Payroll"
                   linktext="Learn More"
                 />
@@ -248,7 +248,7 @@ const Home = () => {
                   title="Technical & Software Compliance"
                   slogan="Your Success, Our Commitment"
                   bold="Collaborative Partnership:"
-                  description="Radee8 is not just a service provider; we are your dedicated partners in shaping a successful international future."
+                  description="RADEE8 is not just a service provider; we are your dedicated partners in shaping a successful international future."
                   link="services#Technical"
                   linktext="Learn More"
                 />
@@ -262,7 +262,7 @@ const Home = () => {
         <div className="container">
           <center className="section-info">
             <h2 className="title" data-aos="fade-up" data-aos-duration="1000">
-              The Radee8 Approach
+              The RADEE8 Approach
             </h2>
             <h4
               className="sub-title"
@@ -277,7 +277,7 @@ const Home = () => {
             <Card
               slogan="Your Success, Our Priority"
               title="Client-Centric Solutions"
-              description="At Radee8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs,"
+              description="At RADEE8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs,"
               link="#"
             />
             <Card
@@ -301,13 +301,13 @@ const Home = () => {
             <Card
               slogan="Borders Beyond Boundaries"
               title="Global Perspective:"
-              description="Our global perspective extends beyond borders. Radee8 understands the intricacies of international markets and leverages."
+              description="Our global perspective extends beyond borders. RADEE8 understands the intricacies of international markets and leverages."
               link="#"
             />
             <Card
               slogan="Your Success, Our Commitment"
               title="Collaborative Partnership:"
-              description="Radee8 is not just a service provider; we are your dedicated partners in shaping a successful international future."
+              description="RADEE8 is not just a service provider; we are your dedicated partners in shaping a successful international future."
               link="#"
             />
           </div>
@@ -321,7 +321,7 @@ const Home = () => {
               Our Values
             </h3>
             <p data-aos="fade-up" data-aos-duration="1500">
-              Radee8 strives tirelessly to stand-on it's core values of
+              RADEE8 strives tirelessly to stand-on it's core values of
               Reliability, Simplicity, and Trust. It is our focused commitment
               and <b> Mission</b> to deliver Our Services through these values.
               <br />
@@ -339,7 +339,7 @@ const Home = () => {
                 <p data-aos="fade-up" data-aos-duration="1500">
                   We realize that offering value to customers can be achieved
                   through a straightforward and transparent approach, therefore
-                  Radee8 provides solutions that sound simple and work. We try
+                  RADEE8 provides solutions that sound simple and work. We try
                   to provide minimalistic, effective solutions to complex
                   business problems.
                 </p>
@@ -353,7 +353,7 @@ const Home = () => {
                 </h3>
                 <hr></hr>
                 <p data-aos="fade-up" data-aos-duration="1500">
-                  Radee8 looks beyond the present to deliver future values. We
+                  RADEE8 looks beyond the present to deliver future values. We
                   care about our stakeholders. We are someone you can count on,
                   taking ownership through our actions has been our guiding
                   principle.
@@ -455,7 +455,7 @@ const Home = () => {
                     <div className="column column-50">
                       <div className="inner">
                         <a
-                          href="https://www.linkedin.com/company/radee8"
+                          href="https://www.linkedin.com/company/RADEE8"
                           rel="noreferrer"
                           target="_blank"
                           className="inner-icon"
@@ -467,7 +467,7 @@ const Home = () => {
                     <div className="column column-50">
                       <div className="inner">
                         <a
-                          href="https://twitter.com/Radee8Official"
+                          href="https://twitter.com/RADEE8Official"
                           rel="noreferrer"
                           target="_blank"
                           className="inner-icon"

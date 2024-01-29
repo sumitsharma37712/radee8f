@@ -15,7 +15,7 @@ const Service = () => {
       <Scrolling
         id="1"
         heading="RADICAL"
-        paragraph="Welcome to the Innovation Hub at Radee8 – a dedicated space where creativity meets strategy, and ideas transform into groundbreaking solutions. Here, we push the boundaries of conventional thinking, leveraging cutting-edge technologies and visionary approaches to shape the future of global businesses."
+        paragraph="Welcome to the Innovation Hub at RADEE8 – a dedicated space where creativity meets strategy, and ideas transform into groundbreaking solutions. Here, we push the boundaries of conventional thinking, leveraging cutting-edge technologies and visionary approaches to shape the future of global businesses."
         class1="maskR"
         image={R}
       />

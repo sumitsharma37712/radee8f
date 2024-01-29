@@ -54,7 +54,7 @@ const About = () => {
       <section className="hero" id="hero">
         <div className="contents text-anim" onMouseMove={animate_X}>
           <div className="animation ltr" ref={headingOne}>
-            <h2>Welcome to Radee8</h2>
+            <h2>Welcome to RADEE8</h2>
           </div>
           <div className="animation rtl text-right" ref={headingTwo}>
             <h2>
@@ -204,7 +204,7 @@ const About = () => {
               Embark on a Transformative Journey
             </h2>
             <p data-aos="fade-up" data-aos-duration="1500">
-              In the tapestry of global business, Radee8 stands as a
+              In the tapestry of global business, RADEE8 stands as a
               transformative force. With a dynamic ensemble of industry
               virtuosos, we transcend boundaries, turning challenges into
               opportunities and ambitions into achievements.
@@ -227,12 +227,12 @@ const About = () => {
                 Sculpting Success with Comprehensive Approach
               </h3>
               <p data-aos="fade-in" data-aos-duration="1500">
-                Radee8 is not just a service provider, we are artisans of
+                RADEE8 is not just a service provider, we are artisans of
                 management.
               </p>
               {togle && (
                 <p>
-                  We have a proven record with diverse set of Clients'. Radee8
+                  We have a proven record with diverse set of Clients'. RADEE8
                   offers tailor made solutions to businessess facing multitude
                   challenges in today's dynamic world.
                 </p>
@@ -264,7 +264,7 @@ const About = () => {
                   <b>Market Navigation</b>
                   <p>Precision in Motion</p>
                   <p>
-                    Explore untapped markets with Radee8's precision-guided
+                    Explore untapped markets with RADEE8's precision-guided
                     approach. Each step is carefully crafted, contributing to
                     360 degree success.
                   </p>

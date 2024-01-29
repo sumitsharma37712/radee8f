@@ -56,13 +56,13 @@ const ChangeWidth = () => {
             <div>
               <h3>Step into the future, experience the power of Teamwork.</h3>
               <p>
-                Radee8 is not just a service provider, we are artisans of
+                RADEE8 is not just a service provider, we are artisans of
                 management.
               </p>
               {approch && (
                 <p>
                   Handcrafted solutions that fit right into your product
-                  resulting in a well finished rollouts, Radee8 believes in
+                  resulting in a well finished rollouts, RADEE8 believes in
                   attention to details.
                 </p>
               )}

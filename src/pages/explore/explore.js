@@ -24,13 +24,14 @@ const ExploreServices = () => {
 
   return (
     <div className="exploreServices" data-aos="fade-up" data-aos-duration="500">
-      <div className="container" data-aos="fade-up" data-aos-duration="500">
+      <div className=" row container flex-wrap" data-aos="fade-up" data-aos-duration="500">
         {exploreapi
           .filter((k) => k.id == filter)
           .map((i, item) => {
             return (
+              <>
               <div
-                className="column exploreHeading"
+                className="column column-80 exploreHeading"
                 id={`exploreHeading${item}` } key={item}
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -112,6 +113,14 @@ const ExploreServices = () => {
                   );
                 })}
               </div>
+              <div className="column column-20">
+                <div className="fixed">
+                  
+                <p>Links</p>
+                </div>
+                
+              </div>
+              </>
             );
           })}
       </div>

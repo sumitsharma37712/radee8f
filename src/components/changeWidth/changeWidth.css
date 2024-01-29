@@ -1,6 +1,7 @@
 .changeWidth {
     min-height: 10vh;
     position: relative !important;
+    overflow: hidden;
 }
 .containerwidth{
     position: relative;
@@ -8,6 +9,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    overflow: hidden;
 
 }
 .expand {

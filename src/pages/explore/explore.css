@@ -1,25 +1,40 @@
-.column-70{
-    width:70%
+.column-70 {
+    width: 70%
 }
-.column-30{
-width: 30%;
+
+.column-30 {
+    width: 30%;
 }
-.all_link{
+
+.all_link {
     padding: 3rem;
     position: sticky;
-    top:15%;
+    top: 15%;
     line-height: 3rem;
 }
-.all_link h4{
+
+.all_link>p  {
+    cursor: pointer;
+    text-transform: capitalize !important;
+    transition: all 300ms;
+}
+
+.all_link>p a:hover {
+    color: var(--green);
+}
+
+.all_link h4 {
 
     font-weight: 600;
 
 }
+
 .exploreServices {
     min-height: 100vh;
     width: 100%;
     padding: 25px;
 }
+
 .container .exploreHeading {
     background: url('/src/assets/images/glass.png') no-repeat;
     background-position: center;
@@ -28,12 +43,12 @@ width: 30%;
     border-radius: 2rem;
     padding: 3.5rem;
     overflow: hidden;
-  }
-  
+}
+
 .exploreServices h3 {
     color: var(--green);
     cursor: pointer;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -42,9 +57,10 @@ width: 30%;
 }
 
 .exploreHeadingInner {
-    padding: 1rem 2.5rem ;
+    padding: 1rem 2.5rem;
 }
-.exploreHeadingInner h4{
+
+.exploreHeadingInner h4 {
     font-size: 2.1rem;
 }
 
@@ -60,17 +76,20 @@ width: 30%;
 .hide {
     display: none;
 }
-.side{
+
+.side {
     transition: 0.5s;
 }
+
 .side>svg {
     transform: rotate(-90deg);
 }
 
 .low>svg {
-    transform: rotate(0deg);
+    transform: rotate(0deg);
 }
-.innercontain{
+
+.innercontain {
     display: flex;
 }
 
@@ -84,9 +103,7 @@ width: 30%;
     }
 }
 
-@media screen and (max-width:1200px) {
-    
-}
+@media screen and (max-width:1200px) {}
 
 @media screen and (max-width:1024px) {
     .accodian .vectortext {
@@ -96,13 +113,23 @@ width: 30%;
 }
 
 @media screen and (max-width:991px) {
+    .column-70 {
+        width: 100%
+    }
+
+    .column-30 {
+        width: 100%;
+    }
+
     .exploreHeading {
         padding: 2rem 0;
     }
-    .exploreServices .container{
+
+    .exploreServices .container {
         padding: 0;
     }
-    .exploreHeadingInner h4{
+
+    .exploreHeadingInner h4 {
         font-size: 1.8rem;
     }
     
@@ -110,13 +137,20 @@ width: 30%;
 
 @media screen and (max-width:567px) {
     
-.exploreHeadingInner {
-    padding: 1rem;
-}
-.exploreHeadingInner ul {
-    padding: 2rem ;
-    font-size: 1.4rem;
-}
+    .exploreHeadingInner {
+        padding: 0rem;
+    }
+    .h3{
+        font-size: 2rem;
+    }
+    .container .exploreHeading{
+        padding: 1rem;
+    }
 
-    
+    .exploreHeadingInner ul {
+        padding: 2rem;
+        font-size: 1.4rem;
+    }
+
+
 }

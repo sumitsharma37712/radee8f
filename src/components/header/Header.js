@@ -116,7 +116,6 @@ const Header = () => {
                             window.scrollTo({ top: y, behavior: "smooth" });
                           }}
                         >
-                          {" "}
                           ADMINISTRATION & FACILITIES MANAGEMENT
                         </NavHashLink>
                       </li>

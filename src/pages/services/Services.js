@@ -16,7 +16,7 @@ const Services = () => {
 
 
   useEffect(() => {
-    localStorage.clear();
+    // localStorage.clear();
   });
   const sendId = (id) => {
     localStorage.setItem("id", JSON.stringify(id));

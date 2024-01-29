@@ -112,35 +112,31 @@
 }
 
 .h2 span:nth-child(17) {
-    animation: text 2s infinite 3.2s ease-in;
+    animation: text 2s infinite 3.4s ease-in;
 }
 
 .h2 span:nth-child(18) {
-    animation: text 2s infinite 3.2s ease-in;
+    animation: text 2s infinite 3.5s ease-in;
 }
 
 .h2 span:nth-child(19) {
-    animation: text 2s infinite 3.2s ease-in;
+    animation: text 2s infinite 3.6s ease-in;
 }
 
 .h2 span:nth-child(20) {
-    animation: text 2s infinite 3.2s ease-in;
+    animation: text 2s infinite 3.8s ease-in;
 }
 
 .h2 span:nth-child(21) {
-    animation: text 2s infinite 3.2s ease-in;
+    animation: text 2s infinite 4.0s ease-in;
 }
 
 .h2 span:nth-child(22) {
-    animation: text 2s infinite 3.2s ease-in;
+    animation: text 2s infinite 4.2s ease-in;
 }
 
-.h2 span:nth-child(16) {
-    animation: text 2s infinite 3.2s ease-in;
-}
-
-.h2 span:nth-child(16) {
-    animation: text 2s infinite 3.2s ease-in;
+.h2 span:nth-child(23) {
+    animation: text 2s infinite 4.4s ease-in;
 }
 
 @keyframes text {

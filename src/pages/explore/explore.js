@@ -118,12 +118,13 @@ const ExploreServices = () => {
                 <div className="all_link">
                   <h4>Links</h4>
                   <hr/>
-                  <p>Entity Setup & Management</p>   
-                  <p>Administration & Facilities Management</p>   
-                  <p>Accounting & Taxation</p>   
-                  <p>Shared Human Resources</p>   
-                  <p>Payroll Services</p>   
-                  <p>Technical & Software Compliance</p>   
+                  <hr/>
+                  <p >Entity Setup & Management</p>   
+                  <p >Administration & Facilities Management</p>   
+                  <p >Accounting & Taxation</p>   
+                  <p >Shared Human Resources</p>   
+                  <p >Payroll Services</p>   
+                  <p >Technical & Software Compliance</p>   
                 
                 </div>
                 

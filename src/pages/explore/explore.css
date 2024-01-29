@@ -8,8 +8,10 @@ width: 30%;
     padding: 3rem;
     position: sticky;
     top:15%;
+    line-height: 3rem;
 }
 .all_link h4{
+
     font-weight: 600;
 
 }

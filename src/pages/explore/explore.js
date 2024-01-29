@@ -8,6 +8,7 @@ const ExploreServices = () => {
 
   useEffect(() => {
     const getID = JSON.parse(localStorage.getItem("id"));
+    console.log(getID);
     setFilter(getID);
   }, []);
 

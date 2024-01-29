@@ -20,7 +20,6 @@ const Services = () => {
   });
   const sendId = (id) => {
     localStorage.setItem("id", JSON.stringify(id));
-    console.log("data", id);
   };
 
   return (

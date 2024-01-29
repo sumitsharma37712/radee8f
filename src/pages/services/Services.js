@@ -40,7 +40,7 @@ const Services = () => {
                 <h3 className="hide-on-mobile">Entity Setup & Management</h3>
                 <p>
                   Our experts are here to assist you Manage your organization's
-                  setup and post setup services. choose from the wide range of
+                  setup and post setup services. Choose from the wide range of
                   setup management options Radee8 has to offer.
                 </p>
               </div>
@@ -221,7 +221,7 @@ const Services = () => {
                 </h3>
                 <p>
                   Get us onboard and Radee8 will ensure that your organisation
-                  has the highest standerds of safeguarding data, mitigating
+                  has the highest standard of safeguarding data, mitigating
                   risks, and promoting efficient operations. Companies often
                   establish protocols, conduct regular audits, and employ
                   monitoring tools to verify and maintain technical and software

@@ -26,10 +26,10 @@ const exploreapi = [
             descriptionhed: 'DSC and DIN Services for Directors : ',
             description1: ' Secure Digital Signature Certificates (DSC) and Director Identification Numbers (DIN) for your leadership team, streamlining administrative processes. ',
           },
-          // {
-          //   descriptionhed: 'MOA (Memorandum of Association) and AOA (Articles of Association) :  ',
-          //   description1: ' Our experts assist in drafting and finalizing these essential documents that define your company’s scope and operations. ',
-          // },
+          {
+            descriptionhed: 'MOA (Memorandum of Association) and AOA (Articles of Association) :  ',
+            description1: ' Our experts assist in drafting and finalizing these essential documents that define your company’s scope and operations. ',
+          },
           {
             descriptionhed: 'PAN (Permanent Account Number) and TAN (Tax Deduction and Collection Account Number) :  ',
             description1: ' Ensure compliance with tax regulations by obtaining PAN and TAN for your entity. ',
@@ -72,7 +72,7 @@ const exploreapi = [
           },
           {
             descriptionhed: 'PF (Provident Fund) and ESI (Employee State Insurance) :  ',
-            description1: 'RADEE8 helps you navigate the complexities of PF and ESI registrations, ensuring your employees social security benefits are managed effectively. ',
+            description1: 'Radee8 helps you navigate the complexities of PF and ESI registrations, ensuring your employees social security benefits are managed effectively. ',
           },
           {
             descriptionhed: 'MSME (Micro, Small, and Medium Enterprises) Registration : ',
@@ -98,7 +98,7 @@ const exploreapi = [
           },
           {
             descriptionhed: 'FEMA (Foreign Exchange Management Act) :   ',
-            description1: 'RADEE8 offers guidance on FEMA compliance to ensure smooth foreign exchange transactions.',
+            description1: 'Radee8 offers guidance on FEMA compliance to ensure smooth foreign exchange transactions.',
           },
           {
             descriptionhed: 'FLA (Foreign Liabilities and Assets) :  ',
@@ -124,16 +124,16 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'Provision of Local/Temporary Director : ',
-            description1: 'RADEE8 provides local or temporary director services, helping you fulfill regulatory requirements and navigate local governance.',
+            description1: 'Radee8 provides local or temporary director services, helping you fulfill regulatory requirements and navigate local governance.',
           },
           {
             descriptionhed: 'Banking Operations :  ',
             description1: 'We manage your banking operations efficiently, ensuring seamless financial transactions and compliance. ',
           },
-          {
-            descriptionhed: 'iii)	Execution of Contracts under MOA :   ',
-            description1: ' Our experts handle the execution of contracts under the Memorandum of Association (MOA), ensuring legal compliance.',
-          },
+          // {
+          //   descriptionhed: 'iii)	Execution of Contracts under MOA :   ',
+          //   description1: ' Our experts handle the execution of contracts under the Memorandum of Association (MOA), ensuring legal compliance.',
+          // },
         ],
       },
     ],
@@ -147,7 +147,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'Vendor Selection and Onboarding :',
-            description1: 'RADEE8 assists in selecting and onboarding vendors, ensuring you collaborate with reliable partners who meet your business needs. ',
+            description1: 'Radee8 assists in selecting and onboarding vendors, ensuring you collaborate with reliable partners who meet your business needs. ',
           },
           {
             descriptionhed: 'Contract Management :',
@@ -165,7 +165,7 @@ const exploreapi = [
           },
           {
             descriptionhed: ' Expense Management :  ',
-            description1: ' RADEE8 simplifies expense management by handling reimbursements, and ensuring compliance with company policies.',
+            description1: ' Radee8 simplifies expense management by handling reimbursements, and ensuring compliance with company policies.',
           },
         ],
       },
@@ -189,7 +189,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'IT Facilities Management : ',
-            description1: 'RADEE8 offers complete IT facilities management services to ensure your technology infrastructure runs smoothly. We handle maintenance, upgrades, and troubleshooting, allowing you to focus on your core business.',
+            description1: 'Radee8 offers complete IT facilities management services to ensure your technology infrastructure runs smoothly. We handle maintenance, upgrades, and troubleshooting, allowing you to focus on your core business.',
           },
           {
             descriptionhed: ' Office Management :  ',
@@ -209,7 +209,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'Accurate Record Keeping :',
-            description1: 'RADEE8’s experienced accountants maintain meticulous records of your financial transactions, ensuring accuracy and compliance with accounting standards.',
+            description1: 'Radee8’s experienced accountants maintain meticulous records of your financial transactions, ensuring accuracy and compliance with accounting standards.',
           },
           {
             descriptionhed: 'Ledger Maintenance :',
@@ -226,7 +226,7 @@ const exploreapi = [
         innerhead: 'Monthly and Yearly P&L (Profit and Loss) and Balance Sheet',
         discription: [
           {
-            descriptionhed: 'Financial Statement Preparation : ',
+            descriptionhed: 'Travel Management : ',
             description1: 'Our travel management services include planning and booking travel arrangements, ensuring your employees travel efficiently and cost-effectively. ',
           },
           {
@@ -255,7 +255,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'Audit Preparedness : ',
-            description1: 'RADEE8 prepares your company for financial audits, ensuring that all financial records are in order and compliant with auditing standards.',
+            description1: 'Radee8 prepares your company for financial audits, ensuring that all financial records are in order and compliant with auditing standards.',
           },
           {
             descriptionhed: 'External Audit Support :  ',
@@ -293,7 +293,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: '',
-            description1: 'Global Lateral, Campus, Off-Campus, Consultant, Contractors Hiring and Staffing Services: RADEE8 offers end-to-end recruitment solutions, helping you find the right talent for your organization, whether through campus drives, lateral hiring, or consultant and contractor staffing.',
+            description1: 'Global Lateral, Campus, Off-Campus, Consultant, Contractors Hiring and Staffing Services: Radee8 offers end-to-end recruitment solutions, helping you find the right talent for your organization, whether through campus drives, lateral hiring, or consultant and contractor staffing.',
           },
         ],
       },
@@ -307,7 +307,7 @@ const exploreapi = [
           },
           {
             descriptionhed: ' Designing Offers, Appointments, Confirmations, Relieving, Experience, Increment Letters, etc :  ',
-            description1: '  RADEE8 provides templates and designs for various HR letters and documents, ensuring professionalism and compliance.',
+            description1: '  Radee8 provides templates and designs for various HR letters and documents, ensuring professionalism and compliance.',
           },
           {
             descriptionhed: 'Grievance and Workplace Behavior (WB), POSH (Prevention of Sexual Harassment), COC (Code of Conduct) Cases Management  : ',
@@ -319,7 +319,7 @@ const exploreapi = [
           },
           {
             descriptionhed: 'HR Statutory Compliances : ',
-            description1: 'RADEE8 ensures your HR processes align with all statutory requirements, reducing compliance risks. ',
+            description1: 'Radee8 ensures your HR processes align with all statutory requirements, reducing compliance risks. ',
           },
           {
             descriptionhed: 'Background Verification :  ',
@@ -346,8 +346,8 @@ const exploreapi = [
             description1: 'Simplify attendance tracking and leave management with our automated solutions.',
           },
           {
-            descriptionhed: 'xii)	Performance Management :  ',
-            description1: 'RADEE8 assists in setting up and running performance appraisal processes, including 360-degree feedback, 90-degree evaluations, MBOs, PIPs, and PEPs.',
+            descriptionhed: 'Performance Management :  ',
+            description1: 'Radee8 assists in setting up and running performance appraisal processes, including 360-degree feedback, 90-degree evaluations, MBOs, PIPs, and PEPs.',
           },
           {
             descriptionhed: '	Employee Surveys :  ',
@@ -361,7 +361,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'Training (In-House & Virtual) :  ',
-            description1: 'RADEE8 offers a wide range of training programs, both in-house and virtual, to enhance employee skills and development.',
+            description1: 'Radee8 offers a wide range of training programs, both in-house and virtual, to enhance employee skills and development.',
           },
           {
             descriptionhed: 'Motivational Speakers : ',
@@ -393,7 +393,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: '',
-            description1: 'Generation of Payslips, Salary Registers, Bank Files, Tax Computation Sheets, and Income Tax Proof Submission and Validation: RADEE8 automates the generation of crucial payroll documents, including payslips and tax-related files, streamlining your payroll process.',
+            description1: 'Generation of Payslips, Salary Registers, Bank Files, Tax Computation Sheets, and Income Tax Proof Submission and Validation: Radee8 automates the generation of crucial payroll documents, including payslips and tax-related files, streamlining your payroll process.',
           },
           {
             descriptionhed: '',
@@ -411,7 +411,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'Deduction of PF (Provident Fund), PT (Professional Tax), ESIC (Employee State Insurance Corporation), TDS (Tax Deducted at Source), and Taxes as per Applicability:  ',
-            description1: ' RADEE8 ensures full compliance with statutory regulations, handling deductions and contributions accurately.',
+            description1: ' Radee8 ensures full compliance with statutory regulations, handling deductions and contributions accurately.',
           },
         ],
       },
@@ -429,7 +429,7 @@ const exploreapi = [
           },
           {
             descriptionhed: 'Introduction of Reimbursement Components in the CTC for Tax Savings : ',
-            description1: ' RADEE8 assists in incorporating reimbursement components into the CTC to help employees save on taxes.',
+            description1: ' Radee8 assists in incorporating reimbursement components into the CTC to help employees save on taxes.',
           },
         ],
       },
@@ -492,8 +492,8 @@ const exploreapi = [
             description1: 'Quality is the cornerstone of our work. Rigorous testing and meticulous review processes guarantee that the final product is flawless.',
           },
           {
-            descriptionhed: 'v)	Punctuality Matters : ',
-            description1: ': Outsourcing your projects to us translates to substantial cost savings in comparison to in-house development, allowing you to allocate your resources wisely.',
+            descriptionhed: 'Punctuality Matters : ',
+            description1: 'Outsourcing your projects to us translates to substantial cost savings in comparison to in-house development, allowing you to allocate your resources wisely.',
           },
           {
             descriptionhed: 'Customer-Centric Approach : ',
@@ -537,7 +537,7 @@ const exploreapi = [
           },
           {
             descriptionhed: 'Responsive Design : ',
-            description1: ' RADEE8’s UI development includes responsive design implementation, making your applications accessible across various devices and screen sizes.',
+            description1: ' Radee8’s UI development includes responsive design implementation, making your applications accessible across various devices and screen sizes.',
           },
           {
             descriptionhed: 'Prototyping and Testing :  ',
@@ -607,7 +607,7 @@ const exploreapi = [
           },
           {
             descriptionhed: '	End-to-End DevOps Services : ',
-            description1: ': RADEE8’s virtual DevOps teams assist in setting up and managing your DevOps pipeline, and optimizing software development, testing, and deployment processes. ',
+            description1: ': Radee8’s virtual DevOps teams assist in setting up and managing your DevOps pipeline, and optimizing software development, testing, and deployment processes. ',
           },
           {
             descriptionhed: '24/7 Support : ',
@@ -621,7 +621,7 @@ const exploreapi = [
         discription: [
           {
             descriptionhed: 'Documentation : ',
-            description1: ' RADEE8 assists in preparing and maintaining the necessary documentation required for SOC (Service Organization Control), ISO (International Organization for Standardization), HIPAA (Health Insurance Portability and Accountability Act), and other certifications. Our experts ensure that all documentation aligns with the specific requirements of each certification.',
+            description1: ' Radee8 assists in preparing and maintaining the necessary documentation required for SOC (Service Organization Control), ISO (International Organization for Standardization), HIPAA (Health Insurance Portability and Accountability Act), and other certifications. Our experts ensure that all documentation aligns with the specific requirements of each certification.',
           },
           {
             descriptionhed: '	Compliance Tracking :  ',
@@ -629,7 +629,7 @@ const exploreapi = [
           },
           {
             descriptionhed: 'Readiness Assessment: ',
-            description1: ' RADEE8 conducts readiness assessments to evaluate your organization’s preparedness for SOC, ISO, HIPAA, or other certifications. We identify areas that require improvement and develop action plans to enhance compliance.',
+            description1: ' Radee8 conducts readiness assessments to evaluate your organization’s preparedness for SOC, ISO, HIPAA, or other certifications. We identify areas that require improvement and develop action plans to enhance compliance.',
           },
           {
             descriptionhed: 'Audit Preparedness : ',

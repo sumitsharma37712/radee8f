@@ -45,7 +45,7 @@ const Services = () => {
 
             return (
               <>
-                <div className="serviceBody row" id={id2}>
+                <div className="serviceBody row" id={id2} key={id}>
                   <h3 className="show-on-mobile" data-aos="fade-up">
                     {headding}
                   </h3>

@@ -88,6 +88,7 @@ const ExploreServices = () => {
                                   id={`innerdiscription${index}`}
                                   data-aos="fade-up"
                                   data-aos-duration="1000"
+                                  key={index}
                                 >
                                   <ul
                                     className={

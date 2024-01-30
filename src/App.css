@@ -101,8 +101,8 @@ img {
   /* border-radius: 10px; */
 }
 
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
   background: var(--black);
   border-radius: 10px;
   /* border: 1px solid var(--green); */
@@ -120,13 +120,15 @@ img {
   margin: 0 auto;
   padding: 0 9rem;
 }
-.containerFull{
+
+.containerFull {
   position: relative;
   max-width: 144rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 7rem;
 }
+
 .row {
   display: flex;
   margin: 0 -1rem;
@@ -277,7 +279,9 @@ img {
 }
 
 @keyframes float {
-  0%,100% {
+
+  0%,
+  100% {
     right: 10%;
     top: 20%
   }
@@ -287,12 +291,13 @@ img {
     top: 40%;
   }
 
-  
+
 }
 
-.active{
+.active {
   color: var(--white) !important;
 }
+
 #back-to-top {
   position: fixed;
   background-color: var(--green);

@@ -11,12 +11,6 @@ const ExploreServices = () => {
     const getID = JSON.parse(localStorage.getItem("id"));
     setFilter(getID);
   }, []);
-  const [explores,setExplore]=useState()
-  const Entity=(id)=>{
-    console.log(id)
-  }
-
-
   const [filter, setFilter] = useState();
   const openInnerContainer = (l) => {
     if (innerChange === l.id) {
@@ -35,7 +29,7 @@ const ExploreServices = () => {
         data-aos-duration="500"
       >
         {exploreapi
-          .filter((k) => k.id == filter)
+          .filter((k) => k.id === filter)
           .map((i, item) => {
             return (
               <>
@@ -126,98 +120,99 @@ const ExploreServices = () => {
                 </div>
                 <div className="column column-30">
                   <div className="all_link">
-                    <h4>Links</h4>
+                    <h3>Services</h3>
                     <hr />
+                  <br/>
                     <p>
-                        <NavHashLink
-                          to="/services#Entity"
-                          scroll={(el) => {
-                            const yOffset = -200;
-                            const y =
-                              el.getBoundingClientRect().top +
-                              window.pageYOffset +
-                              yOffset;
-                            window.scrollTo({ top: y, behavior: "smooth" });
-                          }}
-                        >
-                          Entity Setup & Management
-                        </NavHashLink>
-                      </p>
-                      <p>
-                        <NavHashLink
-                          to="/services#Administration"
-                          scroll={(el) => {
-                            const yOffset = -200;
-                            const y =
-                              el.getBoundingClientRect().top +
-                              window.pageYOffset +
-                              yOffset;
-                            window.scrollTo({ top: y, behavior: "smooth" });
-                          }}
-                        >
-                          Administration & Facilities Management
-                        </NavHashLink>
-                      </p>
-                      <p>
-                        <NavHashLink
-                          to="/services#Accounting"
-                          scroll={(el) => {
-                            const yOffset = -200;
-                            const y =
-                              el.getBoundingClientRect().top +
-                              window.pageYOffset +
-                              yOffset;
-                            window.scrollTo({ top: y, behavior: "smooth" });
-                          }}
-                        >
-                          Accounting & Taxation
-                        </NavHashLink>
-                      </p>
-                      <p>
-                        <NavHashLink
-                          to="/services#Shared"
-                          scroll={(el) => {
-                            const yOffset = -200;
-                            const y =
-                              el.getBoundingClientRect().top +
-                              window.pageYOffset +
-                              yOffset;
-                            window.scrollTo({ top: y, behavior: "smooth" });
-                          }}
-                        >
-                          Shared Human Resources
-                        </NavHashLink>
-                      </p>
-                      <p>
-                        <NavHashLink
-                          to="/services#Payroll"
-                          scroll={(el) => {
-                            const yOffset = -200;
-                            const y =
-                              el.getBoundingClientRect().top +
-                              window.pageYOffset +
-                              yOffset;
-                            window.scrollTo({ top: y, behavior: "smooth" });
-                          }}
-                        >
-                          Payroll Services
-                        </NavHashLink>
-                      </p>
-                      <p>
-                        <NavHashLink
-                          to="/services#Technical"
-                          scroll={(el) => {
-                            const yOffset = -200;
-                            const y =
-                              el.getBoundingClientRect().top +
-                              window.pageYOffset +
-                              yOffset;
-                            window.scrollTo({ top: y, behavior: "smooth" });
-                          }}
-                        >
-                          Technical & Software Compliance
-                        </NavHashLink>
-                      </p>
+                      <NavHashLink
+                        to="/services#Entity"
+                        scroll={(el) => {
+                          const yOffset = -200;
+                          const y =
+                            el.getBoundingClientRect().top +
+                            window.pageYOffset +
+                            yOffset;
+                          window.scrollTo({ top: y, behavior: "smooth" });
+                        }}
+                      >
+                        Entity Setup & Management
+                      </NavHashLink>
+                    </p>
+                    <p>
+                      <NavHashLink
+                        to="/services#Administration"
+                        scroll={(el) => {
+                          const yOffset = -200;
+                          const y =
+                            el.getBoundingClientRect().top +
+                            window.pageYOffset +
+                            yOffset;
+                          window.scrollTo({ top: y, behavior: "smooth" });
+                        }}
+                      >
+                        Administration & Facilities Management
+                      </NavHashLink>
+                    </p>
+                    <p>
+                      <NavHashLink
+                        to="/services#Accounting"
+                        scroll={(el) => {
+                          const yOffset = -200;
+                          const y =
+                            el.getBoundingClientRect().top +
+                            window.pageYOffset +
+                            yOffset;
+                          window.scrollTo({ top: y, behavior: "smooth" });
+                        }}
+                      >
+                        Accounting & Taxation
+                      </NavHashLink>
+                    </p>
+                    <p>
+                      <NavHashLink
+                        to="/services#Shared"
+                        scroll={(el) => {
+                          const yOffset = -200;
+                          const y =
+                            el.getBoundingClientRect().top +
+                            window.pageYOffset +
+                            yOffset;
+                          window.scrollTo({ top: y, behavior: "smooth" });
+                        }}
+                      >
+                        Shared Human Resources
+                      </NavHashLink>
+                    </p>
+                    <p>
+                      <NavHashLink
+                        to="/services#Payroll"
+                        scroll={(el) => {
+                          const yOffset = -200;
+                          const y =
+                            el.getBoundingClientRect().top +
+                            window.pageYOffset +
+                            yOffset;
+                          window.scrollTo({ top: y, behavior: "smooth" });
+                        }}
+                      >
+                        Payroll Services
+                      </NavHashLink>
+                    </p>
+                    <p>
+                      <NavHashLink
+                        to="/services#Technical"
+                        scroll={(el) => {
+                          const yOffset = -200;
+                          const y =
+                            el.getBoundingClientRect().top +
+                            window.pageYOffset +
+                            yOffset;
+                          window.scrollTo({ top: y, behavior: "smooth" });
+                        }}
+                      >
+                        Technical & Software Compliance
+                      </NavHashLink>
+                    </p>
                   </div>
                 </div>
               </>

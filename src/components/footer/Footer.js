@@ -73,7 +73,7 @@ const Footer = () => {
                     </h3>
                     <h4>Call Us</h4>
                   </div>
-                  <div>
+                  <div className="div">
                     <p>
                       <Link to="tel:+919970396818">
                         <img

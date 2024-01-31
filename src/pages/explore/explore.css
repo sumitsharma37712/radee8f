@@ -23,7 +23,7 @@
 }
 
 .all_link>p a:hover {
-    color: var(--green);
+    color: var(--green) !important;
 }
 
 .all_link h3 {

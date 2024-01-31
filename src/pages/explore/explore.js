@@ -6,12 +6,22 @@ import { NavHashLink } from "react-router-hash-link";
 const ExploreServices = () => {
   const [change, setChange] = useState(null);
   const [innerChange, setInnerChange] = useState(false);
-
+  const [filter, setFilter] = useState([]);
   useEffect(() => {
-    const getID = JSON.parse(localStorage.getItem("id"));
-    setFilter(getID);
+    getItemLocal();
   }, []);
-  const [filter, setFilter] = useState();
+
+  const getItemLocal = () => {
+    const getID = JSON.parse(localStorage.getItem("id"))
+    if(getID){
+      setFilter(getID)
+    }
+  };
+
+  const sendId = (id) => {
+    localStorage.setItem("id", JSON.stringify(id));
+  };
+
   const openInnerContainer = (l) => {
     if (innerChange === l.id) {
       return setInnerChange(innerChange);
@@ -122,97 +132,29 @@ const ExploreServices = () => {
                   <div className="all_link">
                     <h3>Services</h3>
                     <hr />
-                  <br/>
-                    <p>
-                      <NavHashLink
-                        to="/services#Entity"
-                        scroll={(el) => {
-                          const yOffset = -200;
-                          const y =
-                            el.getBoundingClientRect().top +
-                            window.pageYOffset +
-                            yOffset;
-                          window.scrollTo({ top: y, behavior: "smooth" });
-                        }}
-                      >
-                        Entity Setup & Management
-                      </NavHashLink>
-                    </p>
-                    <p>
-                      <NavHashLink
-                        to="/services#Administration"
-                        scroll={(el) => {
-                          const yOffset = -200;
-                          const y =
-                            el.getBoundingClientRect().top +
-                            window.pageYOffset +
-                            yOffset;
-                          window.scrollTo({ top: y, behavior: "smooth" });
-                        }}
-                      >
-                        Administration & Facilities Management
-                      </NavHashLink>
-                    </p>
-                    <p>
-                      <NavHashLink
-                        to="/services#Accounting"
-                        scroll={(el) => {
-                          const yOffset = -200;
-                          const y =
-                            el.getBoundingClientRect().top +
-                            window.pageYOffset +
-                            yOffset;
-                          window.scrollTo({ top: y, behavior: "smooth" });
-                        }}
-                      >
-                        Accounting & Taxation
-                      </NavHashLink>
-                    </p>
-                    <p>
-                      <NavHashLink
-                        to="/services#Shared"
-                        scroll={(el) => {
-                          const yOffset = -200;
-                          const y =
-                            el.getBoundingClientRect().top +
-                            window.pageYOffset +
-                            yOffset;
-                          window.scrollTo({ top: y, behavior: "smooth" });
-                        }}
-                      >
-                        Shared Human Resources
-                      </NavHashLink>
-                    </p>
-                    <p>
-                      <NavHashLink
-                        to="/services#Payroll"
-                        scroll={(el) => {
-                          const yOffset = -200;
-                          const y =
-                            el.getBoundingClientRect().top +
-                            window.pageYOffset +
-                            yOffset;
-                          window.scrollTo({ top: y, behavior: "smooth" });
-                        }}
-                      >
-                        Payroll Services
-                      </NavHashLink>
-                    </p>
-                    <p>
-                      <NavHashLink
-                        to="/services#Technical"
-                        scroll={(el) => {
-                          const yOffset = -200;
-                          const y =
-                            el.getBoundingClientRect().top +
-                            window.pageYOffset +
-                            yOffset;
-                          window.scrollTo({ top: y, behavior: "smooth" });
-                        }}
-                      >
-                        Technical & Software Compliance
-                      </NavHashLink>
-                    </p>
+                    <br />
+                    {exploreapi.map((inn) => {
+                      const { id, mainhead } = inn;
+                      return (
+                        <>
+                          <p itemID={id} onClick={() => sendId([id])}>
+                            <NavHashLink
+                              to=""
+                              scroll={(el) => {
+                                const yOffset = -200;
+                                const y =
+                                  el.getBoundingClientRect().top +
+                                  window.pageYOffset +
+                                  yOffset;
+                                window.scrollTo({ top: y, behavior: "smooth" });
+                              }}
+                            >
+                              {mainhead}
+                            </NavHashLink>
+                          </p>
+                        </>
+                      );
+                    })}
                   </div>
                 </div>
               </>

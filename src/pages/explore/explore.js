@@ -137,7 +137,7 @@ const ExploreServices = () => {
                       const { id, mainhead } = inn;
                       return (
                         <>
-                          <p itemID={id} onClick={() => sendId([id])}>
+                          <p itemID={id} onClick={() => sendId(id)}>
                             <NavHashLink
                               to=""
                               scroll={(el) => {

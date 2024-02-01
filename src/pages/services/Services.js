@@ -29,16 +29,15 @@ const Services = () => {
             <h1 data-aos="flip-left">Our Services</h1>
             <p>
 
-             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis non nostrum modi veniam veritatis ratione facere dolor, iure vitae amet! Maxime qui enim ullam accusamus ut, accusantium dolor corrupti quidem sit amet explicabo maiores numquam quisquam suscipit quam cum quibusdam assumenda quaerat aut dolores corporis voluptas. Sunt numquam officiis eligendi.
+             {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis non nostrum modi veniam veritatis ratione facere dolor, iure vitae amet! Maxime qui enim ullam accusamus ut, accusantium dolor corrupti quidem sit amet explicabo maiores numquam quisquam suscipit quam cum quibusdam assumenda quaerat aut dolores corporis voluptas. Sunt numquam officiis eligendi. */}
 
               Our services offer your organization cost optimization, access to
               a global talent pool, and diverse perspectives on business issues.
               Our services involves collaboration across borders, leveraging
               technology to facilitate communication and project management.
-              {/* Take advantage of business process improvement and restructuring,
+              Take advantage of business process improvement and restructuring,
               market research, or digital transformation. Our management
               consultancy contribute significantly to a company's growth and
-              success in the global marketplace. */}
               success in the global marketplace.
 
             </p>

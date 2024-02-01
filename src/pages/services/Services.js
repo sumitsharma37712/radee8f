@@ -4,7 +4,6 @@ import "./Services.css";
 
 import { NavHashLink } from "react-router-hash-link";
 import servicesapi from "./servicesapi";
-import { useEffect } from "react";
 
 const Services = () => {
   const scroll_to_Top = () => {
@@ -17,11 +16,6 @@ const Services = () => {
   const sendId = (id) => {
     localStorage.setItem("id", JSON.stringify(id));
   };
-
-
-  useEffect(() => {
-    sendId();
-  },[sendId]);
   return (
     <>
       <div>

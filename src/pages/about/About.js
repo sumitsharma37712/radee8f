@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
 
 // Style
 import "./About.css";
@@ -19,12 +18,9 @@ import Tile6 from "../../assets/images/tile6.png";
 import Tile7 from "../../assets/images/tile7.png";
 import Tile8 from "../../assets/images/tile8.png";
 
-import ElasticImage from "../../assets/images/elastic.png";
-import ElasticImage2 from "../../assets/images/elastic2.png";
-import CaretRight from "../../assets/images/next.png";
-import CaretTop from "../../assets/images/topup.png";
 import FutureImage from "../../assets/images/future.png";
 import ChangeWidth from "../../components/changeWidth/ChangeWidth";
+import ChangeWidth2 from "../../components/changeWidth2/ChangeWidth2";
 // import { refresh } from "aos";
 
 const About = () => {
@@ -212,40 +208,7 @@ const About = () => {
           </center>
         </div>
       </section>
-
-      <section className="approach" id="approach" style={{ padding: "1rem" }}>
-        <div
-          className="row flex-wrap align-items-center"
-          style={{ margin: "0px" }}
-        >
-          <div className="column column-60">
-            <img src={ElasticImage} alt="Elastic" width="100%"></img>
-          </div>
-          <div className="column column-40 column-contents">
-            <div className="inner">
-              <h3 data-aos="fade-in" data-aos-duration="1000">
-                Sculpting Success with Comprehensive Approach
-              </h3>
-              <p data-aos="fade-in" data-aos-duration="1500">
-                RADEE8 is not just a service provider, we are artisans of
-                management.
-              </p>
-              {togle && (
-                <p>
-                  We have a proven record with diverse set of Clients'. RADEE8
-                  offers tailor made solutions to businessess facing multitude
-                  challenges in today's dynamic world.
-                </p>
-              )}
-              <Link to="" onClick={toggle}>
-                Read {togle ? "less" : "more"}&nbsp;&nbsp;
-                <img src={togle ? CaretTop : CaretRight} alt="Read more"></img>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <ChangeWidth2/>
       <section className="floating-cards-block" id="floating-cards-block">
         <div className="container">
           <div className="floating-cards-stage" id="floating-card-stage-fixed">

@@ -149,7 +149,9 @@ img {
 .flex-wrap {
   flex-wrap: wrap;
 }
-
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
 .wrap-reverse {
   flex-wrap: wrap-reverse;
 }

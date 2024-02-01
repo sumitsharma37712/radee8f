@@ -28,7 +28,7 @@ const Scrolling = ({heading,paragraph,image,pos}) => {
     <>
     <main className="scrolling">
       <div ref={container} className="scrollContainer">
-        <div ref={mask} className="stickymask" style={{maskImage:`url(${image})`,maskPosition:`${pos}`}}>
+        <div ref={mask} className="stickymask" style={{masksize:`url(${image})`,maskPosition:`${pos}`}}>
           <div className="maskR" >
             <div className="textbox">
               <h2>{heading}</h2>

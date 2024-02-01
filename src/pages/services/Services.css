@@ -1,6 +1,7 @@
 .service-section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
+    margin: 2.5rem;
     overflow: hidden;
 }
 
@@ -11,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     /* height: 60vh; */
-    margin:10rem 0;
+    /* margin:10rem 0; */
     width: 100%;
     padding: 25px;
     background: url("../../assets/images/ellipse.png");
@@ -21,7 +22,7 @@
 }
 
 .sectionHead h1 {
-    font-size: 9rem;
+    font-size: 7rem;
     text-align: center;
     text-transform: uppercase;
 }

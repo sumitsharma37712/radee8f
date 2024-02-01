@@ -138,6 +138,7 @@ const exploreapi = [
         ],
       },
     ],
+    link:"/services#Entity"
   },
   {
     id: 2,
@@ -200,6 +201,7 @@ const exploreapi = [
         ],
       },
     ],
+    link:"/services#Administration"
   },
 
   {
@@ -285,6 +287,7 @@ const exploreapi = [
         ],
       },
     ],
+    link:"/services#Accounting"
   },
 
   {
@@ -386,6 +389,7 @@ const exploreapi = [
         ],
       },
     ],
+    link:"/services#Shared"
   },
 
   {
@@ -471,6 +475,7 @@ const exploreapi = [
         ],
       },
     ],
+    link:"/services#Payroll"
   },
 
   {
@@ -644,6 +649,7 @@ const exploreapi = [
         ],
       },
     ],
+    link:"/services#Technical"
   },
 ];
 

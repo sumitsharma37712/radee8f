@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./changeWidth.css";
-import ElasticImage2 from "../../assets/images/elastic2.png";
+import "./changewidth.css";
+import ElasticImage from "../../assets/images/elastic.png";
 import { Link } from "react-router-dom";
 import CaretRight from "../../assets/images/next.png";
 import CaretTop from "../../assets/images/topup.png";
 
-const ChangeWidth = () => {
+const ChangeWidth2 = () => {
   const ref = useRef(null);
   const main = useRef(null);
   const [togle, setToggle] = useState(false);
@@ -16,7 +16,7 @@ const ChangeWidth = () => {
     const changeWidthid = document.getElementById("changeWidth");
     const changeWidth = () => {
       var scroll = window.scrollY / 5;
-      var width = Math.floor(Math.min(800 - scroll));
+      var width = Math.floor(Math.min(370 - scroll));
       console.log(width);
       element.style.width = width + "%";
     };
@@ -44,26 +44,23 @@ const ChangeWidth = () => {
   return (
     <div className="changeWidth" ref={main} id="changeWidth">
       <div className="containerwidth">
-        <div className="row flex flex-wrap">
+        <div className="row flex flex-wrap flex-row-reverse">
           <div className="expand" ref={ref} id="expand">
-            <img src={ElasticImage2} alt="Elastic" width="100%" />
+            <img src={ElasticImage} alt="Elastic" width="100%" />
           </div>
           <div
-            className="column-contents expandtext"
+            className="column-contents expandtext2"
             data-aos="fade-in"
             data-aos-duration="2100"
           >
             <div>
-              <h3>Step into the future, experience the power of Teamwork.</h3>
+              <h3>Sculpting Success with Comprehensive Approach</h3>
               <p>
-                RADEE8 is not just a service provider, we are artisans of
-                management.
+              RADEE8 is not just a service provider, we are artisans of management.
               </p>
               {approch && (
                 <p>
-                  Handcrafted solutions that fit right into your product
-                  resulting in a well finished rollouts, RADEE8 believes in
-                  attention to details.
+                  We have a proven record with diverse set of Clients'. RADEE8 offers tailor made solutions to businessess facing multitude challenges in today's dynamic world.
                 </p>
               )}
               <Link to="" onClick={approchbtn}>
@@ -78,4 +75,4 @@ const ChangeWidth = () => {
   );
 };
 
-export default ChangeWidth;
+export default ChangeWidth2;

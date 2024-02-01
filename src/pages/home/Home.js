@@ -33,18 +33,18 @@ const Home = () => {
           <div className="row flex-wrap wrap-reverse align-items-center herosecond  ">
             <div className="column column-60 hero-text">
               <div className="inner ">
-                <h1 data-aos="fade-up" data-aos-duration="1000">
+                <h2 data-aos="fade-up" data-aos-duration="1000">
                   Elevate Your Global Business with RADEE8
-                </h1>
+                </h2>
                 <p data-aos="fade-up" data-aos-duration="1500">
                   Welcome to RADEE8, your catalyst for global business success.
                   Our team of seasoned advisors specializes in assisting
                   corporations and startups worldwide to establish their
-                  ventures in India and manage the support ecosystem. Talent
-                  Acquisition, Staff Augmentation, Finance, HR, Payroll, IT
-                  Support, Office Setup, Company Registration, Regulatory
-                  Compliance and Taxation, and Facility Management—we are
-                  committed to propelling your business forward.
+                  ventures in India and manage the support ecosystem.
+                  <br /> Talent Acquisition, Staff Augmentation, Finance, HR,
+                  Payroll, IT Support, Office Setup, Company Registration,
+                  Regulatory Compliance and Taxation, and Facility Management—we
+                  are committed to propelling your business forward.
                 </p>
               </div>
             </div>
@@ -104,9 +104,6 @@ const Home = () => {
               <div className="row flex-wrap">
                 <div className="column column-60">
                   <div className="inner">
-                    <p data-aos="fade-up" data-aos-duration="500">
-                      <b>About Us</b>
-                    </p>
                     <h2 data-aos="fade-up" data-aos-duration="1000">
                       Empowering Global Ventures: The RADEE8 Story
                     </h2>
@@ -114,7 +111,7 @@ const Home = () => {
                       At RADEE8, we are more than consultants; we are architects
                       of success, dedicated to empowering global ventures. Our
                       journey is defined by a passion for strategic excellence
-                      and a commitment to turning business aspirations thriving
+                      and a commitment to turning business aspirations into thriving 
                       realities.
                     </p>
                     {/* <p data-aos="fade-up" data-aos-duration="2000">
@@ -210,7 +207,6 @@ const Home = () => {
                   description="At RADEE8, your success is our paramount focus. Our client-centric approach means we tailor solutions to your unique needs."
                   link="services#Entity"
                   linktext="Learn More"
-                  
                 />
                 <Card
                   title="Administration & Facilities Management"
@@ -410,7 +406,7 @@ const Home = () => {
       </section>
       <section className="" data-aos="fade-up">
         <div className="containerFull">
-            <HomeSlider />
+          <HomeSlider />
         </div>
       </section>
 

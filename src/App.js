@@ -34,7 +34,7 @@ const App = () => {
 
 
   useEffect(() => {
-    Aos.init();
+    Aos.init({disable:"mobile"});
   }, []);
   return (
     <>

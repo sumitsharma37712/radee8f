@@ -1,20 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 // Style
 import "./Services.css";
-
 import { NavHashLink } from "react-router-hash-link";
 import servicesapi from "./servicesapi";
+import { Link } from "react-router-dom";
+import CaretRight from "../../assets/images/next.png";
+import CaretTop from "../../assets/images/topup.png";
+import {MdKeyboardArrowRight } from "react-icons/md";
 
 const Services = () => {
+  const [approch, setApproch] = useState(false);
+  function approchbtn() {
+    setApproch(!approch);
+  }
+
   const scroll_to_Top = () => {
     window.scrollTo({
       top: 0,
-      behavior:"auto",
+      behavior: "auto",
     });
-  }
+  };
 
   const sendId = (id) => {
-    localStorage.setItem("id", JSON.stringify(id));
+    localStorage.setItem("id", JSON.stringify(Math.floor(id)));
   };
   return (
     <>
@@ -35,7 +43,8 @@ const Services = () => {
           </div>
 
           {servicesapi.map((service, item) => {
-            const { id, id2, headding, image, description, link } = service;
+            const { id, id2, headding, image, description, innerHead } =
+              service;
 
             return (
               <>
@@ -52,21 +61,50 @@ const Services = () => {
                       <h3 className="hide-on-mobile">{headding}</h3>
                       <p>{description}</p>
                     </div>
-                    <div>
-                      <NavHashLink
-                        to={link}
-                        scroll={(el) => {
-                          const yOffset = -400;
-                          const y =
-                            el.getBoundingClientRect().top +
-                            window.pageYOffset +
-                            yOffset;
-                          window.scrollTo({ top: y, behavior: "smooth" });
-                        }}
-                        onClick={() => sendId(id)}
-                      >
-                        <button className="exploreBtn" onClick={scroll_to_Top}>Explore</button>
-                      </NavHashLink>
+                    {/* <div className="div">
+                      <Link to="" onClick={approchbtn}>
+                        Read {approch ? "less" : "more"} &nbsp;&nbsp;
+                        <img
+                          src={approch ? CaretTop : CaretRight}
+                          alt="Read more"
+                        />
+                      </Link>
+                    </div> */}
+                    <div className="closebtn">
+                      {innerHead.map((i) => {
+                        const { id, innerhead, link } = i;
+                        return (
+                          <>
+                          {/* append && */}
+                            { (
+                              <p
+                                onClick={() => {
+                                  sendId(id);
+                                }}
+                              >
+                                <span><MdKeyboardArrowRight style={{margin:"-0.3rem 0"}}/></span>
+                                <NavHashLink
+                                  to={link}
+                                  // onClick={()=>sendId(id)}
+                                  scroll={(el) => {
+                                    const yOffset = -500;
+                                    const y =
+                                      el.getBoundingClientRect().top +
+                                      window.pageYOffset +
+                                      yOffset;
+                                    window.scrollTo({
+                                      top: y,
+                                      behavior: "smooth",
+                                    });
+                                  }}
+                                >
+                                  {innerhead}
+                                </NavHashLink>
+                              </p>
+                            )}
+                          </>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>

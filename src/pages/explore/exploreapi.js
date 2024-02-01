@@ -6,6 +6,7 @@ const exploreapi = [
       {
         id: '0.0',
         innerhead: 'Company Setup Advisory Services',
+        link: 'company',
         discription: [
           {
             descriptionhed: 'Unique Name and Registration Advice :',
@@ -44,6 +45,8 @@ const exploreapi = [
       {
         id: '0.1',
         innerhead: 'Real Estate Solutions',
+        link: 'real',
+
         discription: [
           {
             descriptionhed: 'Shortlisting of Sites for Physical Office Setup : ',
@@ -62,6 +65,7 @@ const exploreapi = [
       {
         id: '0.2',
         innerhead: 'Entity Registration and Amendment Solutions',
+        link: 'registration',
         discription: [
           {
             descriptionhed: 'Shops and Establishments Registration :  ',
@@ -88,6 +92,7 @@ const exploreapi = [
       {
         id: '0.3',
         innerhead: 'Statutory Services',
+        link: 'statutory',
         discription: [
           {
             descriptionhed: 'Filing Compliance Paperwork : ',
@@ -122,6 +127,7 @@ const exploreapi = [
       {
         id: '0.4',
         innerhead: 'Fiduciary Services',
+        link: 'fiduciary',
         discription: [
           {
             descriptionhed: 'Provision of Local/Temporary Director : ',
@@ -147,6 +153,7 @@ const exploreapi = [
       {
         id: '1.0',
         innerhead: 'Vendor Management',
+        link: 'vendor',
         discription: [
           {
             descriptionhed: 'Vendor Selection and Onboarding :',
@@ -161,6 +168,7 @@ const exploreapi = [
       {
         id: '1.1',
         innerhead: 'Travel Management',
+        link: 'teavel',
         discription: [
           {
             descriptionhed: 'Travel Planning and Booking : ',
@@ -175,6 +183,8 @@ const exploreapi = [
       {
         id: '1.2',
         innerhead: 'Event Management',
+        link: 'event',
+
         discription: [
           {
             descriptionhed: 'Event Planning :  ',
@@ -189,6 +199,7 @@ const exploreapi = [
       {
         id: '1.3',
         innerhead: 'Facilities Management ',
+        link: 'facilitiesmanage',
         discription: [
           {
             descriptionhed: 'IT Facilities Management : ',
@@ -211,6 +222,7 @@ const exploreapi = [
       {
         id: '2.0',
         innerhead: 'Books of Accounts',
+        link: 'books',
         discription: [
           {
             descriptionhed: 'Accurate Record Keeping :',
@@ -229,6 +241,7 @@ const exploreapi = [
       {
         id: '2.1',
         innerhead: 'Monthly and Yearly P&L (Profit and Loss) and Balance Sheet',
+        link: 'balancesheet',
         discription: [
           {
             descriptionhed: 'Travel Management : ',
@@ -243,6 +256,7 @@ const exploreapi = [
       {
         id: '2.2',
         innerhead: 'Expense Management',
+        link: 'expanse',
         discription: [
           {
             descriptionhed: 'Expense Tracking :  ',
@@ -257,6 +271,7 @@ const exploreapi = [
       {
         id: '2.3',
         innerhead: 'Accounts Audits',
+        link: 'accountaudits',
         discription: [
           {
             descriptionhed: 'Audit Preparedness : ',
@@ -271,6 +286,7 @@ const exploreapi = [
       {
         id: '2.4',
         innerhead: 'Taxation',
+        link: 'taxtion',
         discription: [
           {
             descriptionhed: 'Strategies to Optimize Overall Corporate Tax : ',
@@ -297,6 +313,7 @@ const exploreapi = [
       {
         id: '3.0',
         innerhead: 'Recruitment',
+        link: 'recruitment',
         discription: [
           {
             descriptionhed: '',
@@ -307,6 +324,7 @@ const exploreapi = [
       {
         id: '3.1',
         innerhead: 'HR Services',
+        link: 'hrservices',
         discription: [
           {
             descriptionhed: 'Drafting HR Policies (WB, Sexual Harassment, Relocation, Code of Conduct, etc.) and Employee Handbook : ',
@@ -365,6 +383,7 @@ const exploreapi = [
       {
         id: '3.2',
         innerhead: 'Learning and Development',
+        link: 'learningdev',
         discription: [
           {
             descriptionhed: 'Training (In-House & Virtual) :  ',
@@ -399,6 +418,7 @@ const exploreapi = [
       {
         id: '4.0',
         innerhead: 'Transactional Payroll',
+        link: 'trpayroll',
         discription: [
           {
             descriptionhed: '',
@@ -417,6 +437,7 @@ const exploreapi = [
       {
         id: '4.1',
         innerhead: 'Statutory Compliances',
+        link: 'statutory',
         discription: [
           {
             descriptionhed: 'Deduction of PF (Provident Fund), PT (Professional Tax), ESIC (Employee State Insurance Corporation), TDS (Tax Deducted at Source), and Taxes as per Applicability:  ',
@@ -427,6 +448,7 @@ const exploreapi = [
       {
         id: '4.2',
         innerhead: 'Salary Structuring',
+        link: 'salarystructuring',
         discription: [
           {
             descriptionhed: 'Salary Structuring and Restructuring – Building Out Tax-Friendly CTC : ',
@@ -445,6 +467,7 @@ const exploreapi = [
       {
         id: '4.3',
         innerhead: 'Other Related Services',
+        link: 'relatedservice',
         discription: [
           {
             descriptionhed: 'Calculation of Perquisites on Company Benefits such as Car, Company Accommodation, Subsidized Loans, etc :  ',
@@ -459,6 +482,7 @@ const exploreapi = [
       {
         id: '4.4',
         innerhead: 'Payroll Portal Automation',
+        link: 'payrollportal',
         discription: [
           {
             descriptionhed: 'Customized Payroll Portal Development : ',
@@ -485,6 +509,8 @@ const exploreapi = [
       {
         id: '5.1',
         innerhead: 'Excellence in Software Development',
+        link: 'softwaredevelop',
+
         discription: [
           {
             descriptionhed: 'End-to-End Excellence : ',
@@ -515,6 +541,7 @@ const exploreapi = [
       {
         id: '5.2',
         innerhead: 'Diverse Skill Sets for Varied Challenges ',
+        link: 'diverse',
         discription: [
           {
             descriptionhed3: 'In our quest for excellence, our team boasts a wide range of expertise, including :',
@@ -537,6 +564,7 @@ const exploreapi = [
       {
         id: '5.3',
         innerhead: 'UX Designs and UI Development',
+        link: 'uidevelopment',
         discription: [
           {
             descriptionhed: 'User Experience (UX) Design : ',
@@ -559,7 +587,7 @@ const exploreapi = [
       {
         id: '5.4',
         innerhead: 'A World of QA Expertise',
-
+        link: 'QAworld',
         discription: [
           {
             // descriptionhed3: 'In the realm of Quality Assurance (QA), our team excels in roles such as: ',
@@ -611,6 +639,7 @@ const exploreapi = [
       {
         id: '5.5',
         innerhead: 'Virtual DevOps Team',
+        link: 'devopsteam',
         discription: [
           {
             descriptionhed: 'DevOps Expertise : ',
@@ -629,6 +658,7 @@ const exploreapi = [
       {
         id: '5.6',
         innerhead: 'SOC, ISO, HIPAA, etc. - Documentation, Compliance Tracking, and Readiness, Audit Preparedness',
+        link: 'auditpreparedness',
         discription: [
           {
             descriptionhed: 'Documentation : ',

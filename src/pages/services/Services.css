@@ -1,7 +1,7 @@
 .service-section {
     /* min-height: 100vh; */
     width: 100%;
-    margin: 2.5rem;
+    /* margin: 2.5rem; */
     overflow: hidden;
 }
 
@@ -11,8 +11,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* height: 60vh; */
-    /* margin:10rem 0; */
     width: 100%;
     padding: 25px;
     background: url("../../assets/images/ellipse.png");
@@ -50,7 +48,7 @@
 
 .serviceBody>.column-60 {
     display: flex;
-    gap: 50px;
+    gap: 2.5rem;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -73,28 +71,6 @@
     cursor: pointer;
     border-radius: 10px;
 }
-
-/* .exploreBtn:hover {
-    color: var(--black);
-} */
-
-/* .exploreBtn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20%;
-    background-color: var(--green);
-    height: 100%;
-    z-index: -5;
-    transition: 0.5s;
-    border-radius: 5px;
-}
-
-.exploreBtn:hover:before {
-    width: 100%;
-    color: black;
-} */
 
 .show-on-mobile {
     display: none;
@@ -120,6 +96,46 @@
     font-weight: 800;
     color: var(--green);
 }
+
+
+/* next section for read caption */
+
+
+.div a>img{
+    height: 24px;
+    width: 24px !important;
+}
+
+.closebtn{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    font-size: 1.6rem;
+    align-items: left;
+    justify-content: center;
+    transition: all 300s;
+
+}
+
+.closebtn>p>a:hover{
+    color: var(--green) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:1366px) {
     

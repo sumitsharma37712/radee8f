@@ -69,22 +69,21 @@ const ExploreServices = () => {
                         data-aos-duration="1500"
                         onClick={() => openInnerContainer(l.id)}
                       >
-                        <h4 style={{ cursor: "pointer" }} id={item}>
+                        <h4 style={{ cursor: "pointer" }} id={l.link}>
                           <div
                             className="innercontain"
+                            
                             data-aos="fade-up"
                             data-aos-duration="1200"
                           >
                             {/*innear heading image  */}
                             <span
-                              className={innerChange === l.id ? "low" : "side"}
+                              // className={innerChange === l.id ? "low" : "side"}
                             >
                               <MdArrowDropDown />
                             </span>
                             <li
                               style={{ listStyle: "none" }}
-                              data-aos="fade-up"
-                              data-aos-duration="2000"
                             >
                               {l.innerhead}
                             </li>
@@ -103,9 +102,9 @@ const ExploreServices = () => {
                                   key={index}
                                 >
                                   <ul
-                                    className={
-                                      innerChange === l.id ? "show" : "hide"
-                                    }
+                                    // className={
+                                    //   innerChange === l.id ? "show" : "hide"
+                                    // }
                                   >
                                     <li
                                       data-aos="fade-up"

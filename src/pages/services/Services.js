@@ -35,10 +35,11 @@ const Services = () => {
               a global talent pool, and diverse perspectives on business issues.
               Our services involves collaboration across borders, leveraging
               technology to facilitate communication and project management.
-              {/* Take advantage of business process improvement and restructuring,
+              Take advantage of business process improvement and restructuring,
               market research, or digital transformation. Our management
               consultancy contribute significantly to a company's growth and
-              success in the global marketplace. */}
+              success in the global marketplace.
+              
             </p>
           </div>
 

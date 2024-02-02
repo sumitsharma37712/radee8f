@@ -45,7 +45,7 @@
     flex-direction: row;
     gap: 2rem;
     border: 1px solid var(--green);
-    background: url("../../assets/images/bg-gradient-img.png");
+    /* background: url("../../assets/images/bg-gradient-img.png"); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 2rem;
@@ -62,10 +62,10 @@
     left: 0;
     height:5%;
     width: 5%;
-    border-radius: 2% 1% ;
-    background: green;
+    background: var(--green);
     z-index: -1;
-    filter: blur(1rem);
+    filter: blur(5rem);
+    opacity: 0.2;
     transition-timing-function: ease-in-out;
     transition-duration: 1.5s;
   }

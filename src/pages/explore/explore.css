@@ -86,7 +86,7 @@
     letter-spacing: 0.1rem;
     list-style: circle;
     font-weight: 600;
-    color: var(--dark-purple);
+    color: var(--white);
 }
 
 .exploreHeadingInner ul li b {

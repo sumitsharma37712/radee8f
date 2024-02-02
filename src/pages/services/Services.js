@@ -23,7 +23,9 @@ const Services = () => {
       <div>
         <div className="container service-section" data-aos="fade-up">
           <div className="sectionHead row">
-            <h2 data-aos="flip-left" style={{textTransform:"uppercase"}}>Our Services</h2>
+            <h2 data-aos="flip-left" style={{ textTransform: "uppercase" }}>
+              Our Services
+            </h2>
             <p>
               Our services offer your organization cost optimization, access to
               a global talent pool, and diverse perspectives on business issues.
@@ -33,7 +35,7 @@ const Services = () => {
               market research, or digital transformation. Our management
               consultancy contribute significantly to a company's growth and
               success in the global marketplace.
-              </p>
+            </p>
           </div>
 
           {servicesapi.map((service, item) => {
@@ -62,9 +64,7 @@ const Services = () => {
                         return (
                           <>
                             {
-                              <p
-                                
-                              >
+                              <p>
                                 <span className="linkSpan">
                                   <NavHashLink
                                     to={link}
@@ -81,8 +81,8 @@ const Services = () => {
                                     }}
                                   >
                                     <p>{innerhead}</p>
-                                    
-                                  <GoArrowUpRight/>
+
+                                    <GoArrowUpRight />
                                   </NavHashLink>
                                 </span>
                               </p>

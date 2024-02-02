@@ -19,10 +19,7 @@
 }
 
 .success-story .SuccessStoryheader h2 {
-    overflow: hidden;
-    font-size: 7rem;
     text-transform: uppercase;
-    line-height: 1;
 }
 
 .success-story .SuccessStoryheader p {
@@ -54,7 +51,29 @@
     padding: 2rem;
     border-radius: 2.5rem;
     width: 100%;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
 }
+.success-story .successStoryBody .successStoryContent::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:5%;
+    width: 5%;
+    border-radius: 2% 1% ;
+    background: green;
+    z-index: -1;
+    filter: blur(1rem);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.5s;
+  }
+  .success-story .successStoryBody .successStoryContent:hover::before{
+    height:100%;
+    width: 100%;
+
+  }
 
 .sscontentImage {
     width: 50%;

@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 // Style
@@ -10,19 +9,12 @@ import HomeVector from "../../assets/images/home-vector.png";
 
 // Components
 import Tile from "../../components/tile/Tile.js";
-// import Button from '../../components/button/Button.js';
 import Card from "../../components/card/Card.js";
-
-// Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-// import required modules
-// import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 import HomeSlider from "../../components/HomeSlider/HomeSlider.js";
 
 const Home = () => {
@@ -111,12 +103,9 @@ const Home = () => {
                       At RADEE8, we are more than consultants; we are architects
                       of success, dedicated to empowering global ventures. Our
                       journey is defined by a passion for strategic excellence
-                      and a commitment to turning business aspirations into thriving 
-                      realities.
+                      and a commitment to turning business aspirations into
+                      thriving realities.
                     </p>
-                    {/* <p data-aos="fade-up" data-aos-duration="2000">
-                      <Button link="/about-us" text="Learn More" title="Learn More" />
-                    </p> */}
                   </div>
                 </div>
                 <div className="column column-40">
@@ -371,37 +360,6 @@ const Home = () => {
             </div>
           </div>
           <br></br>
-          {/* <div className="row flex-wrap blogs">
-            <div className="column column-50">
-              <div
-                className="inner"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                <h3>RADEE8 Blogs</h3>
-                <p>
-                  Coming Soon!!
-                </p>
-                <Button
-                  link="#"
-                  text="LATEST BLOGS"
-                  title="Latest Blogs"
-                  className="outline"
-                />
-              </div>
-            </div>
-            <div className="column column-50 logo">
-              <div
-                className="inner"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                <Link to="/">
-                  <img src={Logo} alt="Brand"></img>
-                </Link>
-              </div>
-            </div>
-          </div> */}
         </div>
       </section>
       <section className="" data-aos="fade-up">
@@ -469,7 +427,6 @@ const Home = () => {
                           className="inner-icon"
                         >
                           Twitter <FaXTwitter style={{ color: "#ffff" }} />
-                          {/* Facebook &nbsp; <img src={podcastIcon} alt="Podcast"></img> */}
                         </a>
                       </div>
                     </div>

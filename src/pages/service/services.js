@@ -8,6 +8,7 @@ import E from "../../assets/images/E.png";
 import E8 from "../../assets/images/8.png";
 import Scrolling from "../../components/Scrollevent/Scrolling";
 const Service = () => {
+  
   return (
     <>
       <Scrolling

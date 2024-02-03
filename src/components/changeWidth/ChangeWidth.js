@@ -12,7 +12,6 @@ const ChangeWidth = () => {
   const [approch, setApproch] = useState(false);
   useEffect(() => {
     const element = ref.current;
-    // const w = main.current;
     const changeWidthid = document.getElementById("changeWidth");
     const changeWidth = () => {
       var scroll = window.scrollY / 5;

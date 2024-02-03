@@ -4,11 +4,13 @@
   background-size: 144rem;
   background-position: 0 -10rem;
   min-height: 100vh;
-  z-index:0
+  z-index: 0
 }
+
 .herosecond {
   padding: 4rem 0;
 }
+
 .hero:before {
   content: '';
   position: absolute;
@@ -18,7 +20,7 @@
   height: 100%;
   background: url('../../assets/images/bg-gradient-img.png') no-repeat;
   background-size: 40rem;
-  z-index:-1 ;
+  z-index: -1;
 }
 
 .hero .graphics img {
@@ -181,11 +183,11 @@
 
 .approach article.card:hover::before {
   width: 100%;
-  height:60%;
+  height: 60%;
 }
 
 .approach article.card::before {
-  content: ''; 
+  content: '';
   position: absolute;
   bottom: -50%;
   left: 50%;
@@ -289,15 +291,17 @@
   display: flex;
   gap: 5px;
 }
+
 .inner-icon:hover {
   background-color: var(--white);
   color: black;
 }
-.inner-icon:hover  svg{
+
+.inner-icon:hover svg {
   color: black !important;
 }
 
-.inner-icon  svg{
+.inner-icon svg {
   font-size: 21px;
 }
 
@@ -552,28 +556,34 @@
   }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:767px) {
+
   /* hero section */
   .herosecond {
     position: relative;
   }
-  .herosecond .hero-text{
+
+  .herosecond .hero-text {
     display: flex;
     position: absolute;
     /* top: 30px; */
     padding: 0px 5px;
   }
 }
-@media screen and (max-width:440px){
+
+@media screen and (max-width:440px) {
+
   /* hero section */
-  .herosecond .hero-text{
+  .herosecond .hero-text {
     padding: 10px 0px;
   }
-  .herosecond .hero-text p{
+
+  .herosecond .hero-text p {
     text-align: justify;
     font-size: 3.5vw !important;
   }
-  .hero-text .inner h1{
+
+  .hero-text .inner h1 {
     /* font-size: 2.8rem; */
     font-size: 8vw;
   }

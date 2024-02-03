@@ -11,13 +11,6 @@ const Services = () => {
     setApproch(!approch);
   }
 
-  const scroll_to_Top = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "auto",
-    });
-  };
-
   return (
     <>
       <div>
@@ -64,7 +57,7 @@ const Services = () => {
                         return (
                           <>
                             {
-                              <p>
+                              <p key={id}>  
                                 <span className="linkSpan">
                                   <NavHashLink
                                     to={link}

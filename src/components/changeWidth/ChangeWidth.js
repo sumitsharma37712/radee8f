@@ -12,14 +12,14 @@ const ChangeWidth = () => {
   const [approch, setApproch] = useState(false);
   useEffect(() => {
     const element = ref.current;
-    const w = main.current;
+    // const w = main.current;
     const changeWidthid = document.getElementById("changeWidth");
     const changeWidth = () => {
       var scroll = window.scrollY / 5;
       var width = Math.floor(Math.min(800 - scroll));
       element.style.width = width + "%";
     };
-    if (element.style.width == "61%") {
+    if (element.style.width === "61%") {
       element.style.position = "sticky";
       changeWidthid.style.display = "flex";
     }

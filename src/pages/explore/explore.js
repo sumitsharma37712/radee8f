@@ -1,11 +1,18 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 import "./explore.css";
 import { MdArrowDropDown } from "react-icons/md";
 import exploreapi from "./exploreapi";
 import { NavHashLink } from "react-router-hash-link";
 const ExploreServices = () => {
-  const [change, setChange] = useState(null);
+  const [change, setChange] = useState(false);
   const [innerChange, setInnerChange] = useState(false);
+
+  const openContainer = (i) => {
+    if (change === i) {
+      return setChange(!change);
+    }
+    setChange(i);
+  };
 
   const openInnerContainer = (l) => {
     if (innerChange === l.id) {
@@ -19,27 +26,27 @@ const ExploreServices = () => {
   return (
     <div className="exploreServices">
       <div className=" row container flex-wrap">
-        <div
-          className="column column-70 exploreHeading"
-          id={`exploreHeading`}
-        >
-          {exploreapi
-            .map((i, item) => {
-              return (
-                <>
-                  <div className="exploreheadingmain">
-                    <div className="maintext"id={i.link}>
+        <div className="column column-70 exploreHeading" id={`exploreHeading`}>
+          {exploreapi.map((i, item) => {
+            return (
+              <>
+                <div className="exploreheadingmain">
+                  <div
+                    className="maintext"
+                    id={i.link}
+                    onClick={() => openContainer(item)}
+                  >
                     <span className={change === item ? "low" : "side"}>
                       <MdArrowDropDown />
                     </span>
-                    <h3 >{i.mainhead}</h3>
-                    </div>
+                    <h3>{i.mainhead}</h3>
+                  </div>
                   {i.innerHead.map((l, li) => {
                     return (
                       <>
                         <div
                           className={`exploreHeadingInner ${
-                            change === li ? "hide" : "show"
+                            change === item ? "showD" : "hideD"
                           } `}
                           id={`exploreHeadingInner${l.id}`}
                           key={l.id}
@@ -89,11 +96,12 @@ const ExploreServices = () => {
                       </>
                     );
                   })}
-                  </div>
-                </>
-              );
-            })}
+                </div>
+              </>
+            );
+          })}
         </div>
+
         <div className="column column-30">
           <div className="all_link">
             <h3>Services</h3>

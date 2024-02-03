@@ -39,17 +39,20 @@
     width: 100%;
     padding: 25px;
 }
-.exploreheadingmain{
+
+.exploreheadingmain {
     display: flex;
     flex-direction: column;
     margin: 1rem 0;
 }
-.maintext{
+
+.maintext {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: var(--green);
 }
+
 .container .exploreHeading {
     background: url('/src/assets/images/glass.png') no-repeat;
     background-position: center;
@@ -99,6 +102,13 @@
 
 .hide {
     display: none;
+}
+.showD {
+    display: block;
+}
+
+.hideD {
+    display: block;
 }
 
 .side {
@@ -157,6 +167,21 @@
     .exploreHeadingInner h4 {
         font-size: 1.8rem;
     }
+
+
+    /* phone view headding and content  */
+
+
+    .showD {
+        display: block;
+    }
+
+    .hideD {
+        display: none;
+    }
+
+
+
 
 }
 

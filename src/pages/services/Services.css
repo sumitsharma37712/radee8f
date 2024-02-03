@@ -124,9 +124,14 @@
     display: flex;
     align-items: center;
     /* flex-direction: row; */
-    gap: 1rem;
+    gap: 0,1rem;
     justify-content: start;
     margin: 0.5rem;
+}
+.linkSpan a svg{
+    /* font-size: 2rem; */
+    font-weight: bolder;
+    padding-bottom: 0.4rem;
 }
 
 .linkSpan a:hover {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./explore.css";
 import { MdArrowDropDown } from "react-icons/md";
 import exploreapi from "./exploreapi";
@@ -7,11 +7,19 @@ const ExploreServices = () => {
   const [change, setChange] = useState(false);
   const [innerChange, setInnerChange] = useState(false);
 
-  const openContainer = (i) => {
-    if (change === i) {
+  function colorChange() {
+    const span = document.getElementById("span");
+    const localId = localStorage.getItem("id");
+  }
+  useEffect(() => {
+    colorChange();
+  });
+
+  const openContainer = (item) => {
+    if (change === item) {
       return setChange(!change);
     }
-    setChange(i);
+    setChange(item);
   };
 
   const openInnerContainer = (l) => {
@@ -124,7 +132,7 @@ const ExploreServices = () => {
                         window.scrollTo({ top: y, behavior: "smooth" });
                       }}
                     >
-                      {mainhead}
+                      <span id="span">{mainhead}</span>
                     </NavHashLink>
                   </p>
                 </>

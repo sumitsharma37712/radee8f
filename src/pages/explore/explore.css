@@ -103,12 +103,13 @@
 .hide {
     display: none;
 }
+
 .showD {
     display: block;
 }
 
 .hideD {
-    display: block;
+    display: none;
 }
 
 .side {
@@ -220,3 +221,4 @@
 
 
 }
+

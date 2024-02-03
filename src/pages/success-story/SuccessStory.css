@@ -174,7 +174,6 @@
     .success-story {
         padding: 0;
     }
-
     .sscontentImage div,
     .sscontent p,
     .sscontentImage {
@@ -202,8 +201,8 @@
     }
 
     .sscontentImage {
-        position: sticky;
-        top: 7.8rem;
+        position: relative;
+        top: 0;
     }
 }
 

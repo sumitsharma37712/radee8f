@@ -11,6 +11,10 @@ const Services = () => {
     setApproch(!approch);
   }
 
+  const SetLocal = (id)=>{
+    localStorage.setItem('id',Math.floor(JSON.stringify(id)))
+  }
+
   return (
     <>
       <div>
@@ -62,7 +66,7 @@ const Services = () => {
                                   <NavHashLink
                                     to={link}
                                     scroll={(el) => {
-                                      const yOffset = -500;
+                                      const yOffset = -400;
                                       const y =
                                         el.getBoundingClientRect().top +
                                         window.pageYOffset +
@@ -72,6 +76,7 @@ const Services = () => {
                                         behavior: "smooth",
                                       });
                                     }}
+                                    onClick={()=>SetLocal(id)}
                                   >
                                     <p>{innerhead}</p>
 

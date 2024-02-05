@@ -1,21 +1,23 @@
 .scrolling {
     /* min-height: 100vh; */
-    margin-bottom: 100vh;
+    /* margin-bottom: 0vh; */
 }
 
 .scrollContainer {
     position: relative;
-    height: 200vh;
-    background-color: black;
-    /* background: url('../../assets/images/circleblock.png') no-repeat center; */
+    min-height: 200vh;
+    background:url('../../assets/images/services.png') no-repeat center;
+    /* background:cadetblue; */
+    z-index:2
 }
 
-.stickymask  {
+.stickymask {
     display: flex;
     overflow: hidden;
     position: sticky;
     top: 0;
     height: 100vh;
+    /* background-color:var(--green); */
     align-items: center;
     justify-content: center;
     mask-position: center center;
@@ -23,15 +25,9 @@
     mask-size: 80%;
 }
 
-.stickymask img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-/* .maskR{
-    width: 100%;
-} */
-.maskR .textbox{
+.maskR .textbox {
+    position: relative;
+    z-index: 10;
     border: 1px solid var(--Main-Stroke, rgba(255, 255, 255, 0.70));
     background: var(--Main-Gradient, linear-gradient(113deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.00) 110.84%));
     /* Main Blur Effect */

@@ -6,10 +6,12 @@ import { NavHashLink } from "react-router-hash-link";
 const ExploreServices = () => {
   const [change, setChange] = useState(false);
   const [innerChange, setInnerChange] = useState(false);
+  const [colorChangee,setcolorChange]=useState()
 
   function colorChange() {
     const span = document.getElementById("span");
     const localId = localStorage.getItem("id");
+    // console.log(localId)
   }
   useEffect(() => {
     colorChange();
@@ -44,7 +46,7 @@ const ExploreServices = () => {
                     id={i.link}
                     onClick={() => openContainer(item)}
                   >
-                    <span className={change === item ? "low" : "side"}>
+                    <span className={change === item ? "low1" : "side1"}>
                       <MdArrowDropDown />
                     </span>
                     <h3>{i.mainhead}</h3>
@@ -119,10 +121,9 @@ const ExploreServices = () => {
               const { id, mainhead, link } = inn;
               return (
                 <>
-                  <p itemID={id}>
+                  <p itemID={id} >
                     <NavHashLink
                       to={`#${link}`}
-                      // onClick={() => sendId(id)}
                       scroll={(el) => {
                         const yOffset = -100;
                         const y =
@@ -131,8 +132,12 @@ const ExploreServices = () => {
                           yOffset;
                         window.scrollTo({ top: y, behavior: "smooth" });
                       }}
-                    >
-                      <span id="span">{mainhead}</span>
+                    >{
+                      
+                        (<span id="span">{mainhead}</span>)
+                      
+                    }
+                      
                     </NavHashLink>
                   </p>
                 </>

@@ -13,14 +13,12 @@ const Scrolling = ({heading,paragraph,image,pos}) => {
   const animate = () => {
     const masksize = targetMaskSize * getScrollProgress();
     mask.current.style.webkitMaskSize =
-      (initialMaskSize + masksize) * 100 + "%";
+      (initialMaskSize + masksize) * 50 + "%";
     requestAnimationFrame(animate);
   };
 
   const getScrollProgress = () => {
-    const scrollProgress =
-      mask.current.offsetTop /
-      (container.current.getBoundingClientRect().height - window.innerHeight);
+    const scrollProgress = mask.current.offsetTop / (container.current.getBoundingClientRect().height - window.innerHeight);
     return scrollProgress;
   };
 
@@ -28,7 +26,7 @@ const Scrolling = ({heading,paragraph,image,pos}) => {
     <>
     <main className="scrolling">
       <div ref={container} className="scrollContainer">
-        <div ref={mask} className="stickymask" style={{masksize:`url(${image})`,maskPosition:`${pos}`}}>
+        <div ref={mask} className="stickymask" style={{maskImage:`url(${image})`,maskPosition:`${pos}`}}>
           <div className="maskR" >
             <div className="textbox">
               <h2>{heading}</h2>

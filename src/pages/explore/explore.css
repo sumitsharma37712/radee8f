@@ -105,14 +105,14 @@
 }
 
 .showD {
-    display: block;
-}
-
-.hideD {
     display: none;
 }
 
-.side {
+.hideD {
+    display: block;
+}
+
+.side,.side1 {
     transition: 0.5s;
     font-size: 2rem;
 }
@@ -127,6 +127,12 @@
 
 .innercontain {
     display: flex;
+}
+.low1>svg{
+    transform: rotate(-90deg);
+}
+.side1>svg{
+    transform: rotate(0deg);
 }
 
 
@@ -180,10 +186,13 @@
     .hideD {
         display: none;
     }
-
-
-
-
+    .low1>svg{
+        transform: rotate(0deg);
+    }
+    .side1>svg{
+        transform: rotate(-90deg);
+    }
+    
 }
 
 @media screen and (max-width:567px) {
@@ -218,7 +227,4 @@
         padding: 2rem;
         font-size: 1.4rem;
     }
-
-
-}
-
+}   

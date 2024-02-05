@@ -66,7 +66,7 @@ const Services = () => {
                                   <NavHashLink
                                     to={link}
                                     scroll={(el) => {
-                                      const yOffset = -400;
+                                      const yOffset = -100;
                                       const y =
                                         el.getBoundingClientRect().top +
                                         window.pageYOffset +

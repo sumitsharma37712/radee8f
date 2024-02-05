@@ -91,6 +91,9 @@ header .menus .nav-item:hover::before {
 header .menus .nav-item a span {
   text-transform: capitalize;
 }
+header .menus .nav-item a span:active {
+  color: white;
+}
 
 header .menus .nav-item a span::before {
   content: "";
@@ -164,6 +167,7 @@ header .menus .nav-item .submenu li a {
   white-space: nowrap;
   transition: 300ms;
 }
+
 
 /* Media Queries */
 @media only screen and (max-width: 1024px) {

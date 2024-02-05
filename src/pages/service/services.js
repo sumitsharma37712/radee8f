@@ -24,7 +24,7 @@ const Service = () => {
         paragraph="Futuristic Technologies: Embark on a journey through the latest technological frontiers. From AI and machine learning to blockchain and beyond, we explore, innovate, and integrate these advancements into your business strategy."
         class1="maskA"
         image={A}
-        // pos="50% 70%"
+        pos="50% 65%"
 
       />
       <Scrolling
@@ -33,7 +33,7 @@ const Service = () => {
         paragraph="R&D Initiatives: Dive into our Research and Development initiatives. We thrive on curiosity and continuous learning, driving innovation through projects that challenge the status quo and redefine industry standards."
         class1="maskD"
         image={D}
-        pos="10% center"
+        pos="center 15%"
       />
       <Scrolling
         id="4"

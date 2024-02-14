@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./SuccessStory.css";
 import "../../components/HomeSlider/HomeSlider.css";
-// import symantic from "../../assets/images/symantec.jpg.webp";
-import endu from "../../assets/images/endu.jpg.webp";
-import cysiv from "../../assets/images/cysiv.jpg.webp";
-import krista from "../../assets/images/Krista-logo-transparent-312-128-2_b63870c5-8e05-4078-b7db-986a926de2ab.png";
-import symantec from "../../assets/images/symantec.jpg.webp";
-import forescout from "../../assets/images/forescout.png";
+
+import endu from "../../assets/images/endu.png";
+import cysiv from "../../assets/images/cysiv.png";
+import krista from "../../assets/images/krista.png";
+import symantec from "../../assets/images/symantec.png";
+import forescout from "../../assets/images/forescoutp.png";
 // slider
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
@@ -36,7 +36,6 @@ const testimonial = [
   },
 ];
 const SuccessStory = () => {
-  // const [togle, setToggle] = useState(true);
   const [change, setChange] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", toggleChange);
@@ -55,7 +54,7 @@ const SuccessStory = () => {
   return (
     <div className="success-story">
       <div className="SuccessStoryheader">
-        <h2  style={{textTransform:"uppercase"}}>Success Stories</h2>
+        <h2 style={{ textTransform: "uppercase" }}>Success Stories</h2>
         <p>
           RADEE8 prides itself on being one of the most client-centric
           companies. Over the years, we have helped a lot of businesses achieve
@@ -161,7 +160,8 @@ const SuccessStory = () => {
                 Goods and Services Tax (GST) filings became a hassle-free task
                 under RADEE8's guidance, as the advisory firm handled the
                 complexities of India's taxation framework.
-              </p><br/>
+              </p>
+              <br />
               <p>
                 Forescout seamlessly blended into the local business ecosystem,
                 meeting the regulatory standards and boasting a formidable team.
@@ -170,12 +170,7 @@ const SuccessStory = () => {
                 dynamic market.
               </p>
             </p>
-            {/* <p className="pop"></p>
-            {togle && <p className="p2"></p>}
-            <Link to="" onClick={toggle}>
-              Read {togle ? "less" : "more"}&nbsp;&nbsp;
-              <img src={togle ? CaretTop : CaretRight} alt="Read more"></img>
-            </Link> */}
+            
           </div>
         </div>
       </div>

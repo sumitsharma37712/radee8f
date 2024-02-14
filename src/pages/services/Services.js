@@ -11,9 +11,9 @@ const Services = () => {
     setApproch(!approch);
   }
 
-  const SetLocal = (id)=>{
-    localStorage.setItem('id',Math.floor(JSON.stringify(id)))
-  }
+  const SetLocal = (id) => {
+    localStorage.setItem("id", Math.floor(JSON.stringify(id)));
+  };
 
   return (
     <>
@@ -50,45 +50,60 @@ const Services = () => {
                     <img src={image} alt="" />
                   </div>
                   <div className="column column-60" data-aos="fade-left">
-                    <div>
-                      <h3 className="hide-on-mobile">{headding}</h3>
-                      <p>{description}</p>
-                    </div>
+                    {/* <NavHashLink
+                      to={`../explore#${id2}`}
+                      scroll={(el) => {
+                        const yOffset = -100;
+                        const y =
+                          el.getBoundingClientRect().top +
+                          window.pageYOffset +
+                          yOffset;
+                        window.scrollTo({
+                          top: y,
+                          behavior: "smooth",
+                        });
+                      }}
+                    > */}
+                      <div>
+                        <h3 className="hide-on-mobile">{headding}</h3>
+                        <p>{description}</p>
+                      </div>
 
-                    <div className="closebtn">
-                      {innerHead.map((i) => {
-                        const { id, innerhead, link } = i;
-                        return (
-                          <>
-                            {
-                              <p key={id}>  
-                                <span className="linkSpan">
-                                  <NavHashLink
-                                    to={link}
-                                    scroll={(el) => {
-                                      const yOffset = -100;
-                                      const y =
-                                        el.getBoundingClientRect().top +
-                                        window.pageYOffset +
-                                        yOffset;
-                                      window.scrollTo({
-                                        top: y,
-                                        behavior: "smooth",
-                                      });
-                                    }}
-                                    onClick={()=>SetLocal(id)}
-                                  >
-                                    <p>{innerhead}</p>
+                      <div className="closebtn">
+                        {innerHead.map((i) => {
+                          const { id, innerhead, link } = i;
+                          return (
+                            <>
+                              {
+                                <p key={id}>
+                                  <span className="linkSpan">
+                                    <NavHashLink
+                                      to={link}
+                                      scroll={(el) => {
+                                        const yOffset = -100;
+                                        const y =
+                                          el.getBoundingClientRect().top +
+                                          window.pageYOffset +
+                                          yOffset;
+                                        window.scrollTo({
+                                          top: y,
+                                          behavior: "smooth",
+                                        });
+                                      }}
+                                      onClick={() => SetLocal(id)}
+                                    >
+                                      <p>{innerhead}</p>
 
-                                    <GoArrowUpRight />
-                                  </NavHashLink>
-                                </span>
-                              </p>
-                            }
-                          </>
-                        );
-                      })}
-                    </div>
+                                      <GoArrowUpRight />
+                                    </NavHashLink>
+                                  </span>
+                                </p>
+                              }
+                            </>
+                          );
+                        })}
+                      </div>
+                    {/* </NavHashLink> */}
                   </div>
                 </div>
               </>

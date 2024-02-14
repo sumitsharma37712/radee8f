@@ -9,11 +9,11 @@ import "./HomeSlider.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import endu from "../../assets/images/endu.jpg.webp";
-import cysiv from "../../assets/images/cysiv.jpg.webp";
-import krista from "../../assets/images/Krista-logo-transparent-312-128-2_b63870c5-8e05-4078-b7db-986a926de2ab.png";
-import symantec from "../../assets/images/symantec.jpg.webp";
-import forescout from "../../assets/images/forescout.png";
+import endu from "../../assets/images/endu.png";
+import cysiv from "../../assets/images/cysiv.png";
+import krista from "../../assets/images/krista.png";
+import symantec from "../../assets/images/symantec.png";
+import forescout from "../../assets/images/forescoutp.png";
 
 // import required modules
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";

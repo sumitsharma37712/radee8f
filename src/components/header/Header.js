@@ -5,7 +5,7 @@ import { NavHashLink } from "react-router-hash-link";
 import "./Header.css";
 
 // Images
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo2.png";
 
 const Header = () => {
   const [menu, setMenu] = useState(true);

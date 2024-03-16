@@ -62,7 +62,7 @@ const Header = () => {
                   src={Logo}
                   alt="Logo"
                   title="RADEE8"
-                  className="logo"
+                  className="logo logo2"
                   onClick={scroll_to_Top}
                 ></img>
               </NavLink>

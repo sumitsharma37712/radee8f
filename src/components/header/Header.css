@@ -8,6 +8,9 @@ header {
   z-index: 999;
   transition: 300ms all ease-in-out;
 }
+.logo2{
+  height: 50px !important;
+}
 
 header.sticky {
   background: var(--glass-bg);

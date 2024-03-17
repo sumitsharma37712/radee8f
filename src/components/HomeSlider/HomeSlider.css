@@ -5,6 +5,12 @@
     align-items: center;
     padding: 1rem 2rem;
 }
+.cline{
+    width: 11rem;
+    height: 0.1875rem;
+    background-color:var(--green);
+    align-items: center;
+}
 
 .swiper-slide {
     transition: 0.5s;

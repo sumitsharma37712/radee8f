@@ -17,6 +17,8 @@ import forescout from "../../assets/images/forescoutp.png";
 
 // import required modules
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const testimonial = [
   {
@@ -50,6 +52,12 @@ const testimonial = [
   },
 ];
 const HomeSlider = () => {
+  const scroll_to_Top = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+  };
   const pagination = {
     clickable: true,
   };
@@ -59,6 +67,8 @@ const HomeSlider = () => {
         <h2 style={{ textAlign: "center", padding: "2rem 0" }}>
           Our Happy Clients
         </h2>
+        <h4 className="" style={{textTransform:"uppercase"}} ><NavLink to='/testimonal'><span onClick={scroll_to_Top}>Testimonials</span></NavLink></h4>
+        <div className="cline"></div>
       </div>
       <Swiper
         grabCursor={true}

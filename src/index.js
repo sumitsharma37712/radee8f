@@ -9,6 +9,8 @@ import RouteError from './components/route-error/RouteError.js';
 import App from './App.js';
 import Loader from './components/Loader/Loader.js';
 import UnderMaintainance from './pages/UnderMaintainance/UnderMaintainance.js';
+import SuccessStory1 from './pages/success-story/SuccessStory1.js';
+import Testimonal from './components/testimonal/Testimonal.js';
 // Dynamic Loading | Code Spliting
 const Home = lazy(() => import('./pages/home/Home.js'));
 const About = lazy(() => import('./pages/about/About.js'));
@@ -88,6 +90,23 @@ const appRoutes = createBrowserRouter([
         element: (
           <Suspense fallback={<Loader/>}>
             <Services1 />
+          </Suspense>
+        ),
+        errorElement: <RouteError />,
+      },
+      {
+        path: '/success-story1',
+        element: (
+          <Suspense fallback={<Loader/>}>
+            <SuccessStory1 />
+          </Suspense>
+        ),
+        errorElement: <RouteError />,
+      },{
+        path: '/testimonal',
+        element: (
+          <Suspense fallback={<Loader/>}>
+            <Testimonal />
           </Suspense>
         ),
         errorElement: <RouteError />,

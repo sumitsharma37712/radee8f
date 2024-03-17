@@ -35,17 +35,17 @@ const Header = () => {
     document.getElementById("myBar").style.width = scrolled + "%";
   }
 
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(false);
   const scroll_to_Top = () => {
     window.scrollTo({
       top: 0,
-      behavior:"auto",
+      behavior: "auto",
     });
-  }
-  
+  };
+
   useEffect(() => {
     stickyHeader();
-    setVisible()
+    setVisible();
   }, []);
 
   return (
@@ -57,7 +57,7 @@ const Header = () => {
         <div className="container">
           <nav className="nav" id="nav">
             <div className="nav-inner">
-              <NavLink to="/" >
+              <NavLink to="/">
                 <img
                   src={Logo}
                   alt="Logo"
@@ -183,9 +183,46 @@ const Header = () => {
                   </div>
                 </li>
                 <li onClick={change} className="nav-item">
-                  <NavLink to="/success-story">
+                  <NavLink to="/success-story" onClick={change}>
                     <span onClick={scroll_to_Top}>Success Stories</span>
                   </NavLink>
+                  <div className="submenu">
+                    <ul>
+                      <li>
+                        <NavHashLink
+                          to="/success-story"
+                          
+                          scroll={(el) => {
+                            const yOffset = -200;
+                            const y =
+                              el.getBoundingClientRect().top +
+                              window.pageYOffset +
+                              yOffset;
+                            window.scrollTo({ top: y, behavior: "smooth" });
+                          }}
+                        >
+                          Success Stories
+                        </NavHashLink>
+                      </li>
+                      <li>
+                        <NavHashLink
+                          to="/testimonal"
+                          scroll={(el) => {
+                            const yOffset = -200;
+                            const y =
+                              el.getBoundingClientRect().top +
+                              window.pageYOffset +
+                              yOffset;
+                            window.scrollTo({ top: y, behavior: "smooth" });
+                          }}
+                        >
+                          <a onClick={scroll_to_Top}>Testimonials</a>
+
+                          {/*  */}
+                        </NavHashLink>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
               </ul>
               <button
